@@ -1,7 +1,13 @@
 import './App.css';
 
+import Navigation from './Navigation/Navigation';
+
 function App() {
-  return <h1>Lets gooooooo</h1>
+  return (
+    <div className ="app">
+      <Navigation />
+    </div>
+  )
 };
 
 export default App;
