@@ -1,0 +1,36 @@
+.desktop-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+
+.desktop-links li {
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.desktop-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.desktop-link-1 {
+    order: 1;
+}
+
+.desktop-link-2 {
+    order: 2;
+}
+
+.desktop-link-3 {
+    order: 3;
+}
+
+.desktop-link-4 {
+    order: 4;
+}
+
+.desktop-link-5 {
+    order: 5;
+}

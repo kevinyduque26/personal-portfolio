@@ -1,9 +1,16 @@
-.app {
-    background-color: white;
+* {
+    margin: 0px;
 }
 
-.app-body {
-    display: flex;
+@font-face {
+    font-family: "Jakarta";
+    src: local("PlusJakartaSans-VariableFont_wght"),
+    url("./fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+}
+
+li {
+    font-family: "Jakarta";
 }
 
 
