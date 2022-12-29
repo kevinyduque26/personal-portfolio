@@ -4,12 +4,12 @@
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap;
-    z-index: 90;
+    padding-right: 15px;
 }
 
-.burger {
-    width: 2rem;
-    height: 0.25rem;
+.slice {
+    width: 35px;
+    height: 3px;
     border-radius: 10px;
     background-color: black;
     transform-origin: 1px;

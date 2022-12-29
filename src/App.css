@@ -2,15 +2,113 @@
     margin: 0px;
 }
 
+.app {
+    box-sizing: border-box;
+}
+
+.app-body {
+    display: flex;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
 @font-face {
     font-family: "Jakarta";
     src: local("PlusJakartaSans-VariableFont_wght"),
     url("./fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
-    font-weight: normal;
+    font-weight: 200;
+    font-style: normal;
 }
 
-li {
+@font-face {
     font-family: "Jakarta";
+    src: local("PlusJakartaSans-VariableFont_wght"),
+    url("./fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jakarta";
+    src: local("PlusJakartaSans-VariableFont_wght"),
+    url("./fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jakarta";
+    src: local("PlusJakartaSans-VariableFont_wght"),
+    url("./fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jakarta";
+    src: local("PlusJakartaSans-VariableFont_wght"),
+    url("./fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jakarta";
+    src: local("PlusJakartaSans-VariableFont_wght"),
+    url("./fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jakarta";
+    src: local("PlusJakartaSans-VariableFont_wght"),
+    url("./fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Jakarta";
+    font-weight: 700;
+    font-size: clamp(42px, 5vw, 70px);
+    color: #121212;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-family: "Jakarta";
+    font-weight: 700;
+    font-size: clamp(36px, 5vw, 42px);
+    color: #121212;
+}
+
+h3 {
+    font-family: "Jakarta";
+    font-weight: 700;
+    font-size: clamp(30px, 5vw, 36px);
+    color: #121212;
+}
+
+h4 {
+    font-family: "Jakarta";
+    font-weight: 700;
+    font-size: clamp(24px, 5vw, 30px);
+    color: #121212;
+}
+
+p {
+    font-family: "Jakarta";
+    font-weight: 500;
+    font-size: clamp(14px, 5vw, 18px);
+    color: #121212;
+}
+
+a {
+    font-family: "Jakarta";
+    font-weight: 600;
+    font-size: 16px;
+    color: #121212;
 }
 
 

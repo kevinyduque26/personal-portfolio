@@ -48,8 +48,9 @@ function Navigation() {
                 .navigation {
                     display: flex;
                     justify-content: space-between;
-                    padding: 15px 20px;
                     align-items: center;
+                    height: 70px;
+                    padding-left: 15px;
                     ${isOpen ? null : `box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75)`}
                 }
                 
