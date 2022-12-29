@@ -11,7 +11,7 @@ function Hero() {
             <div className="hero-container-left-col">
                 <div className="hero-container-left-col-content">
                     <h1><span style={{color: "#1EC5F5"}}>Visionary</span> that builds products & produces music</h1>
-                    <p>I'm Kevin Duque, a creative and versatile product manager based in Houston, TX. I'm most known for driving clarity and setting a vision in choatic situations; oh, and producing music.</p>
+                    <p>I'm Kevin Duque, a creative and versatile product manager based in Houston, TX. I'm most known for driving clarity and setting a vision in complex situations; oh, and producing music.</p>
                 </div>
                 
             </div>
