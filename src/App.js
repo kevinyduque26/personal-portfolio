@@ -4,6 +4,7 @@ import Navigation from './Navigation/Navigation';
 
 import Hero from './Hero/Hero';
 import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
+import Testing from './Testing/Testing';
 import Footer from './Footer/Footer';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <div className="app-body">
           <Hero />    
           <QuicklinksMain />
+          {/* <Testing /> */}
         </div>
       <Footer />
     </div>

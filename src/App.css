@@ -122,6 +122,44 @@ a {
     color:#1EC5F5;
 }
 
+.grid-button {
+    width: 130px;
+    padding: 15px 0px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #1ec5f5;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Jakarta";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.grid-button:hover {
+    opacity: .6;
+}
+
+.flex-button {
+    min-width: 125px;
+    padding: 15px 0px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #1ec5f5;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Jakarta";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.flex-button:hover {
+    opacity: .6;
+}
+
 
 
 

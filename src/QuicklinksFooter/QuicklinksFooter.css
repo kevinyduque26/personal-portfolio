@@ -1,45 +1,35 @@
-.full-bleed-footer {
+.full-bleed-quicklinks-footer {
     box-shadow: 0 0 0 100vmax #121212;
     clip-path: inset(0 -100vmax); 
 }
 
 .quicklinks-footer-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
     background-color: #121212;
-    padding-right: 43px;
-}
-
-.quicklinks-footer-container a {
-    text-decoration: none;
+    padding-top: 40px;
 }
 
 .quicklinks-footer-link {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 120px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .quicklinks-footer-link:hover {
     opacity: .6;
 }
 
-.quicklinks-footer-link-item {
-    display: grid;
+.quicklinks-footer-link p {
+    display: flex;
+    margin: 0px;
     color: white;
     opacity: .8;
 }
 
-.quicklinks-footer-link span {
-    padding: 10px;
-    font-family: "Jakarta";
-    font-weight: 400;
-    font-size: clamp(14px, 3.5vw, 20px);
-    justify-self: end;
+.icon {
+    padding-right: 10px;
 }
-
-
-
 

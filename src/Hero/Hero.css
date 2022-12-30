@@ -35,7 +35,7 @@
     opacity: .6;
 }
 
-.button {
+/* .button {
     width: 130px;
     padding: 15px 0px;
     margin-top: 40px;
@@ -52,7 +52,7 @@
 
 .button:hover {
     opacity: .6;
-}
+} */
 
 .hero-container-right-col {
     display: grid;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import logo from "./symbol_black.png"
+import logo from "./logo-symbol-black.svg"
 import Hamburger from "./Hamburger";
 import MobileLinks from "./MobileLinks.js";
 import DesktopLinks from "./DesktopLinks";
@@ -55,7 +55,7 @@ function Navigation() {
                 }
                 
                 .navigation img {
-                    height: 40px;
+                    height: 80px;
                 }
             `}</style>
 

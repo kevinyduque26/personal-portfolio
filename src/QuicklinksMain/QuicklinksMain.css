@@ -1,44 +1,33 @@
-.full-bleed-main {
+.full-bleed-quicklinks-main {
     box-shadow: 0 0 0 100vmax #EEEEEE;
     clip-path: inset(0 -100vmax); 
 }
 
 .quicklinks-main-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
     background-color: #EEEEEE;
-    padding-right: 43px;
-}
-
-.quicklinks-main-container a {
-    text-decoration: none;
+    min-height: 75px;
 }
 
 .quicklinks-main-link {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 75px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .quicklinks-main-link:hover {
     opacity: .6;
 }
 
-.quicklinks-main-link-item {
-    display: grid;
+.quicklinks-main-link p {
+    display: flex;
+    margin: 0px;
 }
 
-.quicklinks-main-link span {
-    padding: 10px;
-    font-family: "Jakarta";
-    font-weight: 400;
-    font-size: clamp(14px, 3.5vw, 20px);
-    color: #121212;
-    justify-self: end;
+.icon {
+    padding-right: 10px;
 }
-
-
-
 

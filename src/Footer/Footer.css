@@ -1,42 +1,38 @@
-.footer-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #121212;
+.full-bleed-footer {
+    box-shadow: 0 0 0 100vmax #121212;
+    clip-path: inset(0 -100vmax); 
+}
+
+.footer-main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 720px;
+    margin: 0px auto;
     justify-items: center;
+    text-align: center;
+    background-color: #121212;
+}
+
+.footer-main-content {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.footer-main-content > .eyebrow {
     padding-top: 120px;
 }
 
-.footer-container > h2 {
+.footer-main-content > h2 {
     padding-top: 20px;
     color: white;
 }
 
-.footer-container > p {
+.footer-main-content > p {
     padding-top: 40px;
     color: white;
     opacity: .8;
-    max-width: 720px;
-    text-align: center;
-}
-
-.button {
-    width: 130px;
-    padding: 15px 0px;
-    margin-top: 40px;
-    border-radius: 30px;
-    border-style: none;
-    background-color: #1ec5f5;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-family: "Jakarta";
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.button:hover {
-    opacity: .6;
 }
 
 .design-tag {
@@ -45,22 +41,21 @@
     font-size: 14px;
     color: white;
     opacity: .5;
-    padding: 30px 0px 30px 0px;
+    padding: 120px 0px 40px 0px;
 }
-
-
 
 @media (max-width: 767px){
 
-    .footer-container {
-        padding: 70px 25px 0px 25px;
+    .footer-main-content {
+        padding: 0px 25px;
     }
 
-    .footer-container > p {
-        padding-top: 30px;
+    .footer-main-content > .eyebrow {
+        padding-top: 70px;
     }
 
     .design-tag {
-        padding: 20px 0px 30px 0px;
+        padding: 40px 0px;
     }
 }
+
