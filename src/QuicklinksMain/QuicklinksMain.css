@@ -1,0 +1,43 @@
+.full-bleed {
+    box-shadow: 0 0 0 100vmax #EEEEEE;
+    clip-path: inset(0 -100vmax); 
+}
+
+.quicklinks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+.quicklinks-container a {
+    text-decoration: none;
+}
+
+.quicklinks-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 75px;
+    align-items: center;
+}
+
+.quicklinks-link:hover {
+    opacity: .6;
+}
+
+.quicklinks-link-item {
+    display: grid;
+}
+
+.quicklinks-link span {
+    padding: 10px;
+    font-family: "Jakarta";
+    font-weight: 400;
+    font-size: clamp(14px, 3.5vw, 20px);
+    color: #121212;
+    justify-self: end;
+}
+
+
+
+

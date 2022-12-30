@@ -1,17 +1,18 @@
 .hero-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 800px;
 }
 
 .hero-container-left-col {
     display: grid;
     align-items: center;
+    padding: 120px 0px;
 }
 
 .hero-container-left-col-content {
     display: grid;
-    padding: 0px 50px;
+    padding-left: 10px;
+    padding-right: clamp(10px, 5vw, 100px);
 }
 
 .hero-container-left-col-content > h1 {
@@ -52,17 +53,10 @@
     opacity: .6;
 }
 
-.eyebrow {
-    font-family: "Jakarta";
-    font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 1px;
-    color:#1EC5F5;
-}
-
 .hero-container-right-col {
     display: grid;
     align-items: center;
+    padding-right: 10px;
 }
 
 .hero-container-right-col img {
@@ -85,18 +79,17 @@
     .hero-container {
         display: grid;
         grid-template-columns: 1fr;
-        min-height: 550px;
     }
 
     .hero-container-left-col {
         display: grid;
         z-index: 100;
+        padding: 70px 25px;
 
     }
 
     .hero-container-left-col-content {
         display: grid;
-        padding: 0px 50px;
         justify-items: center;
         text-align: center;
     }
@@ -109,8 +102,8 @@
         padding-top: 30px;
     }
 
-    .button {
-        margin-bottom: 30px;
+    .hero-container-right-col {
+        padding-right: 0px;
     }
 
     .hero-container-right-col img {
