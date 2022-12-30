@@ -26,8 +26,9 @@
 .text-link {
     font-family: "Jakarta";
     font-weight: 400;
-    font-size: clamp(14px, 5vw, 20px);
+    font-size: clamp(14px, 3.5vw, 20px);
     color: #1ec5f5;
+    line-height: 30px;   
 }
 
 .text-link:hover {

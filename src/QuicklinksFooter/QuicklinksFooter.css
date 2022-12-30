@@ -1,41 +1,42 @@
-.full-bleed-main {
-    box-shadow: 0 0 0 100vmax #EEEEEE;
+.full-bleed-footer {
+    box-shadow: 0 0 0 100vmax #121212;
     clip-path: inset(0 -100vmax); 
 }
 
-.quicklinks-main-container {
+.quicklinks-footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    background-color: #EEEEEE;
+    background-color: #121212;
     padding-right: 43px;
 }
 
-.quicklinks-main-container a {
+.quicklinks-footer-container a {
     text-decoration: none;
 }
 
-.quicklinks-main-link {
+.quicklinks-footer-link {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 75px;
+    height: 120px;
     align-items: center;
 }
 
-.quicklinks-main-link:hover {
+.quicklinks-footer-link:hover {
     opacity: .6;
 }
 
-.quicklinks-main-link-item {
+.quicklinks-footer-link-item {
     display: grid;
+    color: white;
+    opacity: .8;
 }
 
-.quicklinks-main-link span {
+.quicklinks-footer-link span {
     padding: 10px;
     font-family: "Jakarta";
     font-weight: 400;
     font-size: clamp(14px, 3.5vw, 20px);
-    color: #121212;
     justify-self: end;
 }
 
