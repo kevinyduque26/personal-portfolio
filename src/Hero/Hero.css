@@ -1,11 +1,7 @@
 .hero-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-.hero-container img {
-    width: 100%;
-    object-fit: cover;
+    min-height: 800px;
 }
 
 .hero-container-left-col {
@@ -15,13 +11,64 @@
 
 .hero-container-left-col-content {
     display: grid;
-    gap: 30px;
-    padding: 100px 50px;
+    padding: 0px 50px;
+}
+
+.hero-container-left-col-content > h1 {
+    padding-top: 20px;
+}
+
+.hero-container-left-col-content > p {
+    padding-top: 40px;
+}
+
+.text-link {
+    font-family: "Jakarta";
+    font-weight: 400;
+    font-size: clamp(14px, 5vw, 20px);
+    color: #1ec5f5;
+}
+
+.text-link:hover {
+    opacity: .6;
+}
+
+.button {
+    width: 130px;
+    padding: 15px 0px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #1ec5f5;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Jakarta";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button:hover {
+    opacity: .6;
+}
+
+.eyebrow {
+    font-family: "Jakarta";
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:#1EC5F5;
 }
 
 .hero-container-right-col {
     display: grid;
     align-items: center;
+}
+
+.hero-container-right-col img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media (max-width: 767px){
@@ -38,21 +85,38 @@
     .hero-container {
         display: grid;
         grid-template-columns: 1fr;
-    }
-
-    .hero-container img {
-        height: 100%;
-        object-fit: cover;
-        z-index: 90;
-        opacity: .2;
+        min-height: 550px;
     }
 
     .hero-container-left-col {
         display: grid;
         z-index: 100;
-        padding: 30px 10px;
-        justify-content: center;
+
+    }
+
+    .hero-container-left-col-content {
+        display: grid;
+        padding: 0px 50px;
+        justify-items: center;
         text-align: center;
     }
 
+    .hero-container-left-col-content > h1 {
+        padding-top: 15px;
+    }
+    
+    .hero-container-left-col-content > p {
+        padding-top: 30px;
+    }
+
+    .button {
+        margin-bottom: 30px;
+    }
+
+    .hero-container-right-col img {
+        height: 100%;
+        opacity: .15;
+    }
+
 }
+

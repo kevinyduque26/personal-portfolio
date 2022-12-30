@@ -99,8 +99,8 @@ h4 {
 
 p {
     font-family: "Jakarta";
-    font-weight: 500;
-    font-size: clamp(14px, 5vw, 18px);
+    font-weight: 400;
+    font-size: clamp(14px, 5vw, 20px);
     color: #121212;
 }
 
@@ -110,5 +110,7 @@ a {
     font-size: 16px;
     color: #121212;
 }
+
+
 
 
