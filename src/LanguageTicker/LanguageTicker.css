@@ -1,0 +1,11 @@
+.ticker-row {
+    min-height: 110px;
+}
+
+.ticker-item {
+    display: inline;
+    padding-right: 100px;
+    font-family: "Jakarta";
+    font-weight: 700;
+    white-space: nowrap;
+}
