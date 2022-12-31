@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Testing.css"
 import video from "./video.MOV"
+import image from "./image.JPG"
 
 function Testing() {
 
@@ -10,7 +11,8 @@ function Testing() {
 
             <div className="music-video-wrapper">
 
-                <video src={video} autoPlay muted loop></video>
+                {/* <video src={video} autoPlay muted loop></video> */}
+                <img src={image} alt="Kevin Duque on stage DJ'ing to a crowd as the opening act for Sean Kingston"></img>
 
                 <div className="overlay"> </div>
 
