@@ -100,11 +100,11 @@
     }
 
     .music-video-wrapper::after {
-        height: 150%;
+        height: 200%;
     }
     
     .music-video-wrapper > img {
-        height: 150%;
+        height: 200%;
     }
 
     .music-content2 {
