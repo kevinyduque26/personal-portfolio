@@ -6,7 +6,6 @@ import Hero from './Hero/Hero';
 import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
 import Testing from './Testing/Testing';
 import Footer from './Footer/Footer';
-import LanguageTicker from './LanguageTicker/LanguageTicker';
 
 function App() {
   return (
@@ -15,7 +14,9 @@ function App() {
         <div className="app-body">
           <Hero />    
           <QuicklinksMain />
+          <Testing />
         </div>
+
       <Footer />
     </div>
   )

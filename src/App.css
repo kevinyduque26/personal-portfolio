@@ -9,6 +9,7 @@
 .app-body {
     max-width: 1440px;
     margin: 0px auto;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -159,6 +160,7 @@ a {
 .flex-button:hover {
     opacity: .6;
 }
+
 
 
 

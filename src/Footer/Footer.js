@@ -19,7 +19,7 @@ function Footer() {
             </div>
 
             <div className="design-tag">
-                Designed & built by Kevin Duque using React.
+                Designed &amp; built by Kevin Duque using React.
             </div>
 
         </div>
