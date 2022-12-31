@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./Testing.css"
-import video from "./video.MOV"
 import image from "./image.JPG"
 
 function Testing() {
