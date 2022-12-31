@@ -1,7 +1,5 @@
 .music-video-wrapper { 
     display: grid;
-    height: 100%;
-    width: 100%;
 }
 
 .music-video-wrapper > * {
@@ -14,27 +12,26 @@
     position: absolute;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,8);
-    opacity: .7;
+    height: 175%;
+    background-color: black;
+    opacity: .8;
 }
 
 .music-video-wrapper > img {
     position: absolute;
     display: block;
-    height: 100%;
-    width: 100%;
     left: 0;
+    width: 100%;
+    height: 175%;
     object-fit: cover;
 }
 
 .music-layout {
     z-index: 100;
-    width: 100%;
-    height: 100%;
     display: grid;
     align-items: space-around;
-    padding: 0px 0px; 
+    padding: 70px 0px; 
+    gap: 40px;
     text-align: center;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -86,11 +83,53 @@
     justify-content: center;
 }
 
-
-@media only screen and (min-width: 767px) {
+@media (min-width: 768px) {
 
     .music-layout {
+        z-index: 100;
         display: grid;
+        align-items: center;
+        padding: 0px 0px;
+        gap: 0px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "music-content1 music-content1 music-content1"
+                             "music-content2 music-content3 music-content4"
+                             "music-content2 music-content3 music-content4"
+        ;
+    }
+
+    .music-video-wrapper::after {
+        height: 100%;
+    }
+    
+    .music-video-wrapper > img {
+        height: 100%;
+    }
+
+    .music-content2 {
+        padding-bottom: 40px;
+    }
+    
+    .music-content3 {
+        padding-bottom: 40px;
+    }
+    
+    .music-content4 {
+        padding-bottom: 40px;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    .music-layout {
+        z-index: 100;
+        display: grid;
+        align-items: center;
+        padding: 70px 0px;
+        gap: 0px;
         text-align: left;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -100,6 +139,12 @@
         ;
     }
 
-
+    .music-video-wrapper::after {
+        height: 100%;
+    }
+    
+    .music-video-wrapper > img {
+        height: 100%;
+    }
 
 }

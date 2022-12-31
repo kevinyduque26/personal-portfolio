@@ -44,6 +44,8 @@ function Navigation() {
 
             {isOpen && <MobileLinks />}
 
+            <p>{screenWidthSize}</p>
+
             <style jsx>{`
                 .navigation {
                     display: flex;
