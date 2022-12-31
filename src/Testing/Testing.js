@@ -13,8 +13,6 @@ function Testing() {
                 {/* <video src={video} autoPlay muted loop></video> */}
                 <img src={image} alt="Kevin Duque on stage DJ'ing to a crowd as the opening act for Sean Kingston"></img>
 
-                <div className="overlay"> </div>
-
                 <div className="music-layout">
                     <div className="music-content1 music-centered">
                         <div className="eyebrow">ALTER EGO</div>

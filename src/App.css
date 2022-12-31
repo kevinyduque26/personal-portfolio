@@ -4,9 +4,13 @@
 
 .app {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .app-body {
+    display: flex;
+    flex-direction: column;
     max-width: 1440px;
     margin: 0px auto;
     box-sizing: border-box;
