@@ -1,6 +1,5 @@
 .music-spotlight-container { 
     display: inline-block;
-
 }
 
 .music-spotlight-body {
@@ -14,7 +13,6 @@
 video {
     z-index: 0;
     grid-area: overlap;
-    object-position: center;
     object-fit: cover;
     height: 100%;
     width: 100%;
@@ -34,10 +32,10 @@ video {
     grid-area: overlap;
     display: grid;
     text-align: center;
-    gap: 30px;
+    gap: 20px;
     padding: 70px 25px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "music-spotlight-content1"
                          "music-spotlight-content2"
                          "music-spotlight-content3"
@@ -93,4 +91,45 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (min-width: 1000px) {
+
+    video {
+        z-index: 0;
+        grid-area: overlap;
+        object-fit: cover;
+        max-height: 900px;
+    }
+
+    .music-spotlight-content {
+        z-index: 100;
+        grid-area: overlap;
+        display: grid;
+        text-align: center;
+        max-width: 1440px;
+        margin: 0px auto;
+        gap: 20px;
+        padding: 0px 25px 70px 25px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "music-spotlight-content1 music-spotlight-content1 music-spotlight-content1"
+                             "music-spotlight-content2 music-spotlight-content3 music-spotlight-content4"
+        ;
+    }
+
+    .music-spotlight-content1 {
+        background-color: transparent;
+        padding: 0px 0px;
+        max-width: 720px;
+        margin: 0px auto;
+    }
+
+    .music-spotlight-content1 h2 {
+        color: white;
+    }
+    
+    .music-spotlight-content1 p {
+        color: white;
+    }
 }
