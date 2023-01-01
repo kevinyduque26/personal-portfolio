@@ -1,6 +1,6 @@
 import './App.css';
 
-// import Navigation from './Navigation/Navigation';
+import Navigation from './Navigation/Navigation';
 // import Hero from './Hero/Hero';
 // import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
 import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
@@ -11,6 +11,7 @@ import NewComponent from './NewComponent/NewComponent';
 function App() {
   return (
     <body className="app">
+      <Navigation />
       <Testing />
       <MusicSpotlight />
       <NewComponent />
