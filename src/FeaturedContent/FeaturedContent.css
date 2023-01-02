@@ -1,0 +1,21 @@
+.featured-content-container {
+    display: inline-block;
+    background-color: #121212;
+}
+
+.featured-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 70px 25px;
+}
+
+.featured-content h2 {
+    color: white;
+}
+
+.featured-content p {
+    color: white;
+}

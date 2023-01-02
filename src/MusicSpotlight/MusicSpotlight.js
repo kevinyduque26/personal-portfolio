@@ -9,6 +9,7 @@ function MusicSpotlight() {
         <div className="music-spotlight-container">
 
             <div className="music-spotlight-body">
+
                 <div className="music-spotlight-content">
                     <div className="music-spotlight-content1 music-spotlight-centered">
                         <div className="eyebrow">ALTER EGO</div>
@@ -31,9 +32,12 @@ function MusicSpotlight() {
                         <p>I always knew my next chapter was going to be producing original music and after my first release four years ago, my sabbitical is done and I plan to release a 4 track EP by the end of 2023.</p>
                     </div>
                 </div>
+
                 <div className="overlay"></div>
+
                 <video src={video} autoPlay muted loop></video>
-            </div>          
+            </div>     
+
         </div>
 
     )

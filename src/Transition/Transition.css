@@ -1,0 +1,50 @@
+.transition-container {
+    display: inline-block;
+    background: linear-gradient(white, #121212 90%);
+}
+
+.transition-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(autofit, 1fr);
+    grid-template-areas: "bodycontent bodycontent"
+                         "imageleft imageright"
+                         "imageleft imageright"
+    ;
+    text-align: center;
+}
+
+.transition-content {
+    grid-area: bodycontent;
+    padding: 0px 25px;
+}
+
+.transition-content h2 {
+    padding-top: 15px;
+}
+
+.transition-content p {
+    padding-top: 30px;
+}
+
+.image-left {
+    grid-area: imageleft;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+}
+
+.image-right {
+    grid-area: imageright;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+}
+
+.transition-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
