@@ -1,0 +1,26 @@
+.navigation-container {
+    display: inline-block;
+    background-color: #D0ECF5;
+}
+
+.navigation-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.navigation-body img {
+    display: block;
+    height: 70px;
+    width: auto;
+}
+
+@media screen and (min-width: 767px) {
+
+    .navigation-body img {
+        height: 80px;
+    }
+
+}

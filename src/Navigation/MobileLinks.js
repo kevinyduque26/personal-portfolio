@@ -1,15 +1,17 @@
 import React from "react";
 
-import "./MobileLinks.css"
+// CSS Import
+import "./MobileLinks.css";
+
 
 function MobileLinks() {
     return (
         <ul className="mobile-links">
-            <li className="mobile-link-1"><a href="/">Home</a></li>
-            <li className="mobile-link-2"><a href="/">Experience</a></li>
-            <li className="mobile-link-3"><a href="/">Technical Skills</a></li>
-            <li className="mobile-link-4"><a href="/">Passions</a></li>
-            <li className="mobile-link-5"><a href="/">Contact</a></li>
+            <li><a className="nav-links" href="/">Home</a></li>
+            <li><a className="nav-links" href="/">Experience</a></li>
+            <li><a className="nav-links" href="/">Technical Skills</a></li>
+            <li><a className="nav-links" href="/">Passions</a></li>
+            <li><a className="nav-links" href="/">Contact</a></li>
         </ul>
     )
 };

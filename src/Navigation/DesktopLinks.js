@@ -1,15 +1,17 @@
 import React from "react";
 
-import "./DesktopLinks.css"
+// CSS Import
+import "./DesktopLinks.css";
+
 
 function DesktopLinks() {
     return (
         <ul className="desktop-links">
-            <li className="desktop-link-1"><a href="/">Home</a></li>
-            <li className="desktop-link-2"><a href="/">Experience</a></li>
-            <li className="desktop-link-3"><a href="/">Technical Skills</a></li>
-            <li className="desktop-link-4"><a href="/">Passions</a></li>
-            <li className="desktop-link-5"><a href="/">Contact</a></li>
+            <li className="desktop-link"><a className="nav-links" href="/">Home</a></li>
+            <li className="desktop-link"><a className="nav-links" href="/">Experience</a></li>
+            <li className="desktop-link"><a className="nav-links" href="/">Technical Skills</a></li>
+            <li className="desktop-link"><a className="nav-links" href="/">Passions</a></li>
+            <li><a className="nav-links" href="/">Contact</a></li>
         </ul>
     )
 };

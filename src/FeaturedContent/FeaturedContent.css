@@ -1,6 +1,7 @@
 .featured-content-container {
     display: inline-block;
     background-color: #121212;
+    border: none;
 }
 
 .featured-content {

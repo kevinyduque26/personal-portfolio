@@ -10,8 +10,8 @@ function FeaturedContent() {
             <div className="featured-content">
 
                 <div>
-                    <h2>Featured content component</h2>
-                    <p>Content to follow</p>
+                    <h2>Featured content</h2>
+                    <p>Just a sample of the content </p>
                 </div>
 
                 <ContentGallery />

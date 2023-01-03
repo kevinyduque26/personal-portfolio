@@ -1,22 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
-import logo from "./logo-symbol-black.svg"
+// CSS Import
+import "./Navigation.css";
+
+// Component Import
 import Hamburger from "./Hamburger";
 import MobileLinks from "./MobileLinks.js";
 import DesktopLinks from "./DesktopLinks";
 
+// File Import
+import logo from "./logo-symbol-black.svg";
 
-function Navigation() {
+
+function Navigation({ screenWidthSize }) {
 
     const [isOpen, setIsOpen] = useState(false);
-    const [screenWidthSize, setScreenWidthSize] = useState(window.innerWidth)
-
-    useEffect(() => {
-        const resizeScreenWidthSize = () => setScreenWidthSize(window.innerWidth);
-        window.addEventListener("resize", resizeScreenWidthSize); 
-        return () => window.removeEventListener("resize", resizeScreenWidthSize);
-    });
-
+    
     const handleHamburgerClick = () => {
         setIsOpen(!isOpen)
     };
@@ -26,44 +25,41 @@ function Navigation() {
     }
 
     return (
-        <>
-            <div className="navigation">
-                <a href="/">
-                    <img 
-                        src={logo} 
-                        alt="Kevin Duque's personal brand logo" 
-                    />
-                </a>
-                {screenWidthSize > 767 && <DesktopLinks />}
+        <div className="navigation-container">
+
+            <div className="navigation-body" style={{boxShadow: isOpen ? 'none' : '0px 5px 8px -9px rgba(0, 0, 0, 0.75)'}}>
+                
+                <div>
+                    <a href="/">
+                        <img 
+                            src={logo} 
+                            alt="Kevin Duque's personal brand logo" 
+                        />
+                    </a>
+                </div>
+
+
+                {screenWidthSize > 767 && (
+                <div>
+                    <DesktopLinks />
+                </div>    
+                )}
+
                 {screenWidthSize <= 767 && (
                     <div onClick={handleHamburgerClick}>
                         <Hamburger isOpen={isOpen}/>
                     </div> 
                 )}
+
             </div>
 
             {isOpen && <MobileLinks />}
 
-            <p>{screenWidthSize}</p>
-
-            <style jsx>{`
-                .navigation {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    height: 70px;
-                    padding-left: 15px;
-                    ${isOpen ? null : `box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75)`}
-                }
-                
-                .navigation img {
-                    height: 80px;
-                }
-            `}</style>
-
-        </>
-    );
+        </div>
+    )
 };
 
 export default Navigation;
+
+
 

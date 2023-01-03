@@ -11,16 +11,19 @@ function ContentGallery() {
         <div class="content-gallery-container">
 
             <div class="content-gallery-column">
+                <p>Content</p>
                 <video src={vid} controls></video>
                 <p>Content</p>
             </div>
 
             <div class="content-gallery-column">
-               <img src={image}></img>
+                <p>Content</p>
+               <img src={image} alt="TBD"></img>
                 <p>Content</p>
             </div>
 
             <div class="content-gallery-column">
+                <p>Content</p>
                 <audio src={audio} controls></audio>
                 <p>Content</p>
             </div>

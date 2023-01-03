@@ -1,23 +1,31 @@
-.full-bleed-footer {
+/* .full-bleed-footer {
     box-shadow: 0 0 0 100vmax #121212;
     clip-path: inset(0 -100vmax); 
-}
+} */
 
 .footer-main-container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+
+    background-color: #121212;
+
+}
+
+.footer-main-body {
     max-width: 720px;
-    margin: 0px auto;
     justify-items: center;
     text-align: center;
-    background-color: #121212;
+    margin: 0px auto;
+
+
 }
 
 .footer-main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .footer-main-content > .eyebrow {

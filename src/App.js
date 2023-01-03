@@ -1,5 +1,9 @@
+import React, { useEffect, useState } from 'react';
+
+// CSS Import
 import './App.css';
 
+// Component Import
 import Navigation from './Navigation/Navigation';
 import Hero from './Hero/Hero';
 import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
@@ -11,11 +15,24 @@ import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
 import FeaturedContent from './FeaturedContent/FeaturedContent';
 import Footer from './Footer/Footer';
 
+// THINGS LEFT TO DO
+// Mobilelinks & Deskptop Links: Need to add links to secitons of the page and add ID in those sections
+
 function App() {
+
+  const [screenWidthSize, setScreenWidthSize] = useState(window.innerWidth)
+
+  useEffect(() => {
+      const resizeScreenWidthSize = () => setScreenWidthSize(window.innerWidth);
+      window.addEventListener("resize", resizeScreenWidthSize); 
+      return () => window.removeEventListener("resize", resizeScreenWidthSize);
+  });
+
   return (
-    <body className="app">
-      <Navigation />
-      <Hero />
+    <main className="app">
+      <Navigation screenWidthSize={screenWidthSize} />
+      {/* <p style={{backgroundColor: "red"}}>{screenWidthSize}</p> */}
+      <Hero screenWidthSize={screenWidthSize} />
       <QuicklinksMain />
       <RecentHighlights />
       <Experience />
@@ -24,7 +41,7 @@ function App() {
       <MusicSpotlight />
       <FeaturedContent />
       <Footer />
-    </body>
+    </main>
   )
 };
 
