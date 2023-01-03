@@ -83,7 +83,7 @@ video {
     justify-content: center;
 }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 
     video {
         z-index: 0;

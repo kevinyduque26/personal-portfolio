@@ -15,7 +15,7 @@ import logo from "./logo-symbol-black.svg";
 function Navigation({ screenWidthSize }) {
 
     const [isOpen, setIsOpen] = useState(false);
-    
+
     const handleHamburgerClick = () => {
         setIsOpen(!isOpen)
     };
@@ -27,7 +27,9 @@ function Navigation({ screenWidthSize }) {
     return (
         <div className="navigation-container">
 
-            <div className="navigation-body" style={{boxShadow: isOpen ? 'none' : '0px 5px 8px -9px rgba(0, 0, 0, 0.75)'}}>
+            <div className="navigation-body">
+
+                {/* Logo */}
                 
                 <div>
                     <a href="/">
@@ -37,6 +39,8 @@ function Navigation({ screenWidthSize }) {
                         />
                     </a>
                 </div>
+
+                {/* Desktop Links and Hamburger */}
 
 
                 {screenWidthSize > 767 && (
@@ -52,6 +56,8 @@ function Navigation({ screenWidthSize }) {
                 )}
 
             </div>
+
+            {/* Mobile Links */}
 
             {isOpen && <MobileLinks />}
 

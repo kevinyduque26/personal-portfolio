@@ -8,59 +8,43 @@
     flex-direction: column;
 }
 
+/* 
+
+Colors
+
+Dark Blue
+#161C28
+
+Blue 
+#D0ECF5
+Light Blue 
+#EFFAFE
+
+Brown
+#F5EEE4
+
+Purple
+#E9EBFF
+
+Other
+#F3F6FB
+
+ */
+
+
 @font-face {
-    font-family: "Jakarta";
-    src: local("PlusJakartaSans-VariableFont_wght"),
-    url("./Fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
-    font-weight: 200;
+    font-family: "Lato";
+    src: local("Lato-Thin"),
+    url("./Fonts/Lato-Thin.ttf") format("truetype");
+    font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Jakarta";
-    src: local("PlusJakartaSans-VariableFont_wght"),
-    url("./Fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+    font-family: "Lato";
+    src: local("Lato-Light"),
+    url("./Fonts/Lato-Light.ttf") format("truetype");
     font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Jakarta";
-    src: local("PlusJakartaSans-VariableFont_wght"),
-    url("./Fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Jakarta";
-    src: local("PlusJakartaSans-VariableFont_wght"),
-    url("./Fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Jakarta";
-    src: local("PlusJakartaSans-VariableFont_wght"),
-    url("./Fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Jakarta";
-    src: local("PlusJakartaSans-VariableFont_wght"),
-    url("./Fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Jakarta";
-    src: local("PlusJakartaSans-VariableFont_wght"),
-    url("./Fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
-    font-weight: 800;
     font-style: normal;
 }
 
@@ -91,57 +75,60 @@
 h1 {
     font-family: "Lato";
     font-weight: 700;
-    font-size: clamp(50px, 5vw, 72px);
-    color: #151C26;
+    font-size: clamp(50px, 5vw, 80px);
+    color: #161C28;
     letter-spacing: -2px;
     line-height: clamp(55px, 5vw, 80px);;
 }
 
 h2 {
-    font-family: "Jakarta";
+    font-family: "Lato";
     font-weight: 700;
     font-size: clamp(36px, 5vw, 60px);
-    color: #121212;
+    color: #161C28;
+    letter-spacing: -2px;
 }
 
 h3 {
-    font-family: "Jakarta";
+    font-family: "Lato";
     font-weight: 700;
     font-size: clamp(30px, 5vw, 48px);
-    color: #121212;
+    color: #161C28;
+    letter-spacing: -2px;
 }
 
 h4 {
-    font-family: "Jakarta";
+    font-family: "Lato";
     font-weight: 700;
     font-size: clamp(26px, 5vw, 36px);
-    color: #121212;
+    color: #161C28;
+    letter-spacing: -2px;
 }
 
 p {
     font-family: "Lato";
     font-weight: 400;
     font-size: clamp(14px, 3.5vw, 20px);
-    color: #121212;
+    color: #161C28;
     line-height: 30px;
 }
 
 /* Come back and edit the mobile for a links */
 
 .nav-links {
-    font-family: "Jakarta";
-    font-weight: 600;
+    font-family: "Lato";
+    font-weight: 400;
     font-size: 16px;
-    color: #121212;
+    color: #161C28;
     text-decoration: none;
 }
 
 .eyebrow {
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
     letter-spacing: 1px;
-    color: #151C26;
+    color: #161C28;
 }
 
 .grid-button {
@@ -150,7 +137,7 @@ p {
     margin-top: 40px;
     border-radius: 30px;
     border-style: none;
-    background-color: #151C26;
+    background-color: #161C28;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -169,12 +156,12 @@ p {
     margin-top: 40px;
     border-radius: 30px;
     border-style: none;
-    background-color: #1ec5f5;
+    color: #161C28;
     color: white;
     text-decoration: none;
     text-align: center;
-    font-family: "Jakarta";
-    font-weight: 600;
+    font-family: "Lato";
+    font-weight: 700;
     font-size: 16px;
 }
 
