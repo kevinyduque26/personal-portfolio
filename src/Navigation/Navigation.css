@@ -1,6 +1,6 @@
 .navigation-container {
     display: inline-block;
-    background-color: #D0ECF5;
+    background-color: red;
     opacity: .9;
 }
 
@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px 0px 5px;
+    padding: 0px 20px 0px 5px;
 }
 
 .navigation-body img {
