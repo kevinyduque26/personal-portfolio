@@ -24,7 +24,7 @@ function Hero({ screenWidthSize }) {
             </div>
 
             <div className="hero-container-right-col">
-                {screenWidthSize < 767 ? (
+                {/* {screenWidthSize < 767 ? (
                     <img 
                         src={mobilePicture} 
                         alt="Kevin Duque's personal brand logo" 
@@ -34,11 +34,11 @@ function Hero({ screenWidthSize }) {
                         src={picture} 
                         alt="Kevin Duque's personal brand logo" 
                     />
-                )}
-                {/* <img 
+                )} */}
+                <img 
                     src={picture} 
                     alt="Kevin Duque's personal brand logo" 
-                /> */}
+                />
             </div>
 
         </div>
