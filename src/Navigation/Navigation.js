@@ -9,7 +9,7 @@ import MobileLinks from "./MobileLinks.js";
 import DesktopLinks from "./DesktopLinks";
 
 // File Import
-import logo from "./logo-symbol-black.svg";
+import logo from "./kevin-duque-logo.svg";
 
 
 function Navigation({ screenWidthSize }) {

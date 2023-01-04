@@ -1,0 +1,48 @@
+.about-container {
+    display: inline-block;
+}
+
+.about-body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 0px 20px 30px 20px;
+}
+
+
+.about-content-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.about-content-row-item {
+    flex: .5;
+    max-width: 50%;
+    padding-top: 30px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+/* .tx-edit {
+    display: none;
+} */
+
+@media screen and (min-width: 767px) {
+
+    .about-body {
+        max-width: 720px;
+        padding: 50px 50px;
+    }
+
+    .tx-edit {
+        display: unset;
+    }
+
+}

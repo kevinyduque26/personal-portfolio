@@ -6,6 +6,7 @@ import './App.css';
 // Component Import
 import Navigation from './Navigation/Navigation';
 import Hero from './Hero/Hero';
+import About from './About/About';
 // import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
 // import RecentHighlights from './RecentHighlights/RecentHighlights';
 // import Experience from './Experience/Experience';
@@ -34,8 +35,9 @@ function App() {
   return (
     <main className="app">
       <Navigation screenWidthSize={screenWidthSize} />
-      {/* <p style={{backgroundColor: "red"}}>{screenWidthSize}</p> */}
       <Hero screenWidthSize={screenWidthSize} />
+      <About />
+      <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
       {/* <QuicklinksMain />
       <RecentHighlights />
       <Experience />

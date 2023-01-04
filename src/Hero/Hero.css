@@ -71,6 +71,8 @@
 
     .hero-container-content {
         grid-area: heroleft;
+        text-align: left;
+        align-items: unset;
     }
 
     .hero-container-media {
