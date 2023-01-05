@@ -7,14 +7,18 @@ import './App.css';
 import Navigation from './Navigation/Navigation';
 import Hero from './Hero/Hero';
 import About from './About/About';
-// import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
-// import RecentHighlights from './RecentHighlights/RecentHighlights';
+import Expertise from './Expertise/Expertise';
+import Highlights from './Highlights/Highlights';
+
 // import Experience from './Experience/Experience';
 // import TechnicalSkills from './TechnicalSkills/TechnicalSkills';
 // import Transition from './Transition/Transition';
 // import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
 // import FeaturedContent from './FeaturedContent/FeaturedContent';
 // import Footer from './Footer/Footer';
+
+// Likely omit
+// import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
 
 // THINGS LEFT TO DO
 // Mobilelinks & Deskptop Links: Need to add links to secitons of the page and add ID in those sections
@@ -37,15 +41,16 @@ function App() {
       <Navigation screenWidthSize={screenWidthSize} />
       <Hero screenWidthSize={screenWidthSize} />
       <About />
+      <Expertise />
       <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
-      {/* <QuicklinksMain />
-      <RecentHighlights />
-      <Experience />
+      <Highlights />
+      {/* <Experience />
       <TechnicalSkills />
       <Transition />
       <MusicSpotlight />
       <FeaturedContent />
       <Footer /> */}
+      {/* <QuicklinksMain /> */}
     </main>
   )
 };

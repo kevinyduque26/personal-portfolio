@@ -22,7 +22,7 @@ function About() {
 
                 <div className="about-content-row">
                     <div className="about-content-row-item left">
-                        <div className="kpi">Houston<span className="kpi tx-edit">, TX</span></div>
+                        <div className="kpi">Houston</div>
                         <p>Current location</p>
                     </div>
                     <div className="about-content-row-item right">

@@ -1,0 +1,86 @@
+.expertise-container {
+    display: inline-block;
+}
+
+.expertise-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "expertiseoverlap"
+    ;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.expertise-content {
+    grid-area: expertiseoverlap;
+    z-index: 100;
+    padding: 80px 25px;
+}
+
+.expertise-title {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.expertise-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    box-sizing:border-box;
+}
+
+.expertise-card {
+    background-color: white;
+    padding: 25px;
+    /* border-radius: 15px;
+    border: 1px solid #ECDDC9; */
+    box-shadow: rgba(255, 255, 255, .1) 0px 0px 25px;
+
+    flex: 100%;
+    max-width: 100%;
+
+}
+
+.expertise-background {
+    grid-area: expertiseoverlap;
+    background-color: #F5EEE4;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+@media screen and (min-width: 600px) {
+
+    .expertise-cards {
+        gap: 12px;
+        flex-direction: row;
+    }
+
+    .expertise-card {
+        flex: 49%;
+    }
+
+    .expertise-background {
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .expertise-content {
+        padding: 120px 0px;
+    }
+
+    .expertise-cards {
+        flex-wrap: unset;
+        gap: 25px;
+    }
+
+    .expertise-card {
+        flex: 25%;
+        max-width: 25%
+    }
+
+}

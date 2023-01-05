@@ -5,21 +5,24 @@
 .about-body {
     display: flex;
     flex-direction: column;
+    gap: 40px;
+    max-width: 720px;
     margin: 0px auto;
-    padding: 0px 20px 30px 20px;
+    padding: 80px 25px;
 }
 
 
 .about-content-row {
     display: flex;
     flex-direction: row;
+
 }
 
-
 .about-content-row-item {
+    display: flex;
+    flex-direction: column;
     flex: .5;
-    max-width: 50%;
-    padding-top: 30px;
+    justify-content: center;
 }
 
 .left {
@@ -30,19 +33,19 @@
     text-align: right;
 }
 
-/* .tx-edit {
-    display: none;
-} */
-
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 600px) {
 
     .about-body {
-        max-width: 720px;
-        padding: 50px 50px;
+        width: 80%;
     }
 
-    .tx-edit {
-        display: unset;
+}
+
+@media screen and (min-width: 800px) {
+
+    .about-body {
+        padding: 120px 30px;
+        width: 100%;
     }
 
 }

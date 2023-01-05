@@ -8,30 +8,6 @@
     flex-direction: column;
 }
 
-/* 
-
-Colors
-
-Dark Blue
-#161C28
-
-Blue 
-#D0ECF5
-Light Blue 
-#EFFAFE
-
-Brown
-#F5EEE4
-
-Purple
-#E9EBFF
-
-Other
-#F3F6FB
-
- */
-
-
 @font-face {
     font-family: "Lato";
     src: local("Lato-Thin"),
@@ -100,9 +76,17 @@ h3 {
 h4 {
     font-family: "Lato";
     font-weight: 700;
-    font-size: clamp(26px, 5vw, 36px);
+    font-size: clamp(24px, 5vw, 36px);
     color: #161C28;
     letter-spacing: -2px;
+}
+
+h5 {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: clamp(18px, 5vw, 24px);
+    color: #161C28;
+    letter-spacing: -1px;
 }
 
 p {
@@ -112,6 +96,10 @@ p {
     color: #161C28;
     line-height: 30px;
 }
+
+
+
+
 
 /* Come back and edit the mobile for a links */
 
@@ -153,7 +141,7 @@ p {
 .kpi {
     font-family: "Lato";
     font-weight: 400;
-    font-size: clamp(36px, 5vw, 60px);
+    font-size: clamp(30px, 5vw, 48px);
     color: #161C28;
     letter-spacing: -2px;
 }

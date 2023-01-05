@@ -1,14 +1,14 @@
 import React from "react";
 
-import "./RecentHighlights.css"
+import "./Highlights.css"
 
-function RecentHighlights() {
+function Highlights() {
     return (
         <div style={{padding: "70px 0px", display: "block", height: "900px", textAlign: "center"}}>
-            <h2 >Recent highlights component</h2>
+            <h2 >A few highlights</h2>
             <p style={{paddingTop: "40px"}}>Content to follow</p>
         </div>
     )
 };
 
-export default RecentHighlights;
+export default Highlights;
