@@ -1,20 +1,20 @@
  import React from "react";
 
 // CSS Import
-import "./Highlights.css"
+import "./Highlights.css";
 
-import planet from "./test-image.webp"
-import cup from "./cup.jpeg"
-import bynder from "./bynder-logo.webp"
-import baker from "./baker-logo.png"
+//  File Import
+import cup from "./cup.jpeg";
+import bynder from "./bynder-logo.webp";
+import baker from "./baker-logo.png";
 
 function Highlights() {
     return (
         <div className="highlights-container">
+
             <div className="highlights-body">
 
                 <div className="highlights-card-top-bottom">
-                    {/* <div className="highlights-card-overlay1"></div> */}
                     <div className="card-image">
                         <img src={cup} alt="test"></img>
                     </div>
@@ -26,7 +26,7 @@ function Highlights() {
                 </div>
 
                 <div className="highlights-card-middle">
-                    {/* <div className="highlights-card-overlay2"></div> */}
+
                     <div className="card-image">
                         <img src={bynder} alt="test"></img>
                     </div>
@@ -38,7 +38,7 @@ function Highlights() {
                 </div>
                 
                 <div className="highlights-card-top-bottom">
-                    {/* <div className="highlights-card-overlay3"></div> */}
+
                     <div className="card-image">
                         <img src={baker} alt="test"></img>
                     </div>
@@ -49,10 +49,7 @@ function Highlights() {
                     </div>
                 </div>
 
-
-
             </div>
-
 
         </div>
     )

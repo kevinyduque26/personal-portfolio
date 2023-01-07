@@ -11,11 +11,11 @@ import Expertise from './Expertise/Expertise';
 import Highlights from './Highlights/Highlights';
 
 import Experience from './Experience/Experience';
-import TechnicalSkills from './TechnicalSkills/TechnicalSkills';
-import Transition from './Transition/Transition';
-import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
-import FeaturedContent from './FeaturedContent/FeaturedContent';
-import Footer from './Footer/Footer';
+// import TechnicalSkills from './TechnicalSkills/TechnicalSkills';
+// import Transition from './Transition/Transition';
+// import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
+// import FeaturedContent from './FeaturedContent/FeaturedContent';
+// import Footer from './Footer/Footer';
 
 // Likely omit
 // import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
@@ -44,14 +44,8 @@ function App() {
       <Expertise />
       <Highlights />
       <p style={{backgroundColor: "white"}}>{screenWidthSize}</p>
-
-
-
-      {/* <TechnicalSkills />
-
-
       <Experience />
-
+      {/* <TechnicalSkills />
       <Transition />
       <MusicSpotlight />
       <FeaturedContent />

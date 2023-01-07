@@ -16,7 +16,7 @@ function Hero({ screenWidthSize }) {
 
                 <div className="hero-container-content">
                     <div className="eyebrow">PRODUCT MANAGER</div>
-                    <h1>I'm a visionary that builds products &amp; creates content</h1>
+                    <h1>I'm a <span style={{ color: "#747474" }} >visionary</span> that builds products &amp; creates content</h1>
                     <p className="hero-caption">My name is Kevin Duque and I'm a product manager best known for driving clarity and setting a vision and direction in complex situations; oh, and making music.</p>
                     <a className="grid-button" target="_blank" href="mailto:kevinyduque26@gmail.com" rel="noopener noreferrer">Say Hello</a>
                 </div>

@@ -1,77 +1,63 @@
-* {
-    box-sizing: border-box;
-}
-
 .experience-container {
-    display: block;
+  display: inline-block;
+  background-color: white;
 }
 
 .experience-body {
-    display: flex;
-    flex-direction: column;
-    max-width: 1440px;
-    margin: 0px auto;
+  max-width: 1440px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  padding: 80px 16px;
+  /* background-color:blue; */
 }
 
 .experience-content {
-    display: flex;
-    flex-direction: column;
-} 
+  min-width: 30%;
+  flex: .3;
+  background-color: #F8F8F8;
+}
 
-/* Timeline CSS */
+.experience-tabs {
+  min-width: 70%;
+  flex: .7;
+}
 
-/* Timeline Container */
-.timeline {
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-    margin: 20px auto;
-    padding: 20px;
-  }
-  
-  /* Outer Layer with the timeline border */
-  .outer {
-    border-left: 2px solid #333;
-  }
-  
-  /* Card container */
-  .card {
-    position: relative;
-    margin: 0 0 20px 20px;
-    padding: 10px;
-    background: white;
-    color: gray;
-    border-radius: 8px;
-    /* max-width: 1000px; */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  }
-  
-  /* Information about the timeline */
-  .info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+/* Style the tab buttons */
+.tablink {
+  background-color: white;
+  /* color: white; */
+  /* float: left; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 50%;
+}
 
-  .title-date {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  /* Title of the card */
-  .title {
-    color: orangered;
-    position: relative;
-  }
-  
-  /* Timeline dot  */
-  .title::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 999px;
-    left: -39px;
-    border: 3px solid orangered;
-  }
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
 
+/* Set default styles for tab content */
+.tabcontent {
+  background-color: #F8F8F8;
+  display: none;
+  padding: 50px;
+  text-align: center;
+  min-width: 500px;
+}
+
+/* Style each tab content individually */
+/* #London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;} */

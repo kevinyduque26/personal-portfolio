@@ -102,7 +102,7 @@
 @media screen and (min-width: 1000px) {
 
     .expertise-body {
-        padding: 120px 16px;
+        padding: 240px 16px 120px 16px;
         flex-direction: row;
     }
 
