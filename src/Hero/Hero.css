@@ -31,7 +31,8 @@
 
 .hero-container-media {
     grid-area: overlap;
-    max-height: 600px;
+    min-height: 825px;
+    max-height: 825px;
     overflow: hidden;
 }
 
@@ -40,7 +41,7 @@
     grid-area: overlap;
     width: 100%;
     height: 100%;
-    background-color: #D0ECF5;
+    background-color: #F8F8F8;
     opacity: .9;
 
 }
@@ -51,10 +52,10 @@
     display: block;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 950px) {
 
     .hero-container {
-        background-color: #D0ECF5;
+        background-color: #F8F8F8;
     }
 
     .hero-container-body {
@@ -83,4 +84,8 @@
         display: none;
     }
 
+}
+
+.react-icons {
+    padding-top: 5px;
 }

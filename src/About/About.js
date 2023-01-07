@@ -9,26 +9,24 @@ function About() {
 
             <div className="about-body">
 
-                <div className="about-content-row">
-                    <div className="about-content-row-item left">
-                        <div className="kpi">6+</div>   
-                        <p>Years of expereince</p>
-                    </div>
-                    <div className="about-content-row-item right">
-                        <div className="kpi">Senior PM</div>
-                        <p>Current role @ Bynder</p>
-                    </div>
+                <div className="about-content-item">
+                    <div className="kpi">6+</div>   
+                    <p>Years of expereince</p>
                 </div>
 
-                <div className="about-content-row">
-                    <div className="about-content-row-item left">
-                        <div className="kpi">Houston</div>
-                        <p>Current location</p>
-                    </div>
-                    <div className="about-content-row-item right">
-                        <div className="kpi">100+</div>
-                        <p>Product features shipped</p>
-                    </div>
+                <div className="about-content-item aci-mobile-padding-top">
+                    <div className="kpi">Senior PM</div>
+                    <p>Current role @ Bynder</p>
+                </div>
+
+                <div className="about-content-item aci-mobile-padding-top aci-tablet-padding-top">
+                    <div className="kpi">Houston</div>
+                    <p>Current location</p>
+                </div>
+                
+                <div className="about-content-item aci-mobile-padding-top aci-tablet-padding-top">
+                    <div className="kpi">100+</div>
+                    <p>Product features shipped</p>
                 </div>
 
             </div>

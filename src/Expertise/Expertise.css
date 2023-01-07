@@ -1,86 +1,110 @@
 .expertise-container {
     display: inline-block;
+    background-color: #F8F8F8;
+    /* background-color: red; */
 }
 
 .expertise-body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "expertiseoverlap"
-    ;
     max-width: 1440px;
     margin: 0px auto;
-}
-
-.expertise-content {
-    grid-area: expertiseoverlap;
-    z-index: 100;
-    padding: 80px 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 16px;
+    /* background-color:blue; */
 }
 
 .expertise-title {
+    width: 100%;
+    flex: 1;
     text-align: center;
-    padding-bottom: 40px;
+}
+
+.expertise-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.expertise-logos > img {
+    min-width: 50%;
+    flex: .5;
+    object-fit: contain;
 }
 
 .expertise-cards {
     display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    box-sizing:border-box;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
 }
 
 .expertise-card {
-    background-color: white;
-    padding: 25px;
-    /* border-radius: 15px;
-    border: 1px solid #ECDDC9; */
-    box-shadow: rgba(255, 255, 255, .1) 0px 0px 25px;
-
-    flex: 100%;
-    max-width: 100%;
-
+    /* background-color: white; */
+    padding: 0px 25px;
 }
 
-.expertise-background {
-    grid-area: expertiseoverlap;
-    background-color: #F5EEE4;
-    width: 100%;
-    height: 100%;
-    margin: 0px auto;
+.ec-mobile-padding-top {
+    padding-top: 25px;
 }
 
 @media screen and (min-width: 600px) {
 
-    .expertise-cards {
-        gap: 12px;
+    .expertise-body {
         flex-direction: row;
     }
 
-    .expertise-card {
-        flex: 49%;
+    .expertise-title {
+        width: 30%;
+        flex: .3;
+        text-align: left;
+        padding-right: 25px;
     }
 
-    .expertise-background {
-        width: 80%;
+    .expertise-logos > img {
+        min-width: 100%;
+        flex: 1;
+    }
+    
+    .expertise-cards {
+        min-width: 70%;
+        flex: .7;
     }
 
 }
 
 @media screen and (min-width: 800px) {
 
-    .expertise-content {
-        padding: 120px 0px;
+    .expertise-logos > img {
+        min-width: 50%;
+        flex: .5;
     }
 
     .expertise-cards {
-        flex-wrap: unset;
-        gap: 25px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .expertise-card {
+        min-width: 50%;
+        flex: .5;
     }
 
-    .expertise-card {
-        flex: 25%;
-        max-width: 25%
+    .ec-mobile-padding-top {
+        padding-top: unset;
     }
+
+    .ec-table-padding-top {
+        padding-top: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .expertise-body {
+        padding: 120px 16px;
+        flex-direction: row;
+    }
+
 
 }

@@ -10,12 +10,12 @@ import About from './About/About';
 import Expertise from './Expertise/Expertise';
 import Highlights from './Highlights/Highlights';
 
-// import Experience from './Experience/Experience';
-// import TechnicalSkills from './TechnicalSkills/TechnicalSkills';
-// import Transition from './Transition/Transition';
-// import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
-// import FeaturedContent from './FeaturedContent/FeaturedContent';
-// import Footer from './Footer/Footer';
+import Experience from './Experience/Experience';
+import TechnicalSkills from './TechnicalSkills/TechnicalSkills';
+import Transition from './Transition/Transition';
+import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
+import FeaturedContent from './FeaturedContent/FeaturedContent';
+import Footer from './Footer/Footer';
 
 // Likely omit
 // import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
@@ -42,10 +42,16 @@ function App() {
       <Hero screenWidthSize={screenWidthSize} />
       <About />
       <Expertise />
-      <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
       <Highlights />
-      {/* <Experience />
-      <TechnicalSkills />
+      <p style={{backgroundColor: "white"}}>{screenWidthSize}</p>
+
+
+
+      {/* <TechnicalSkills />
+
+
+      <Experience />
+
       <Transition />
       <MusicSpotlight />
       <FeaturedContent />

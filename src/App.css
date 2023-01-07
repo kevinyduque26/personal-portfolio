@@ -50,56 +50,52 @@
 
 h1 {
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 400;
     font-size: clamp(50px, 5vw, 80px);
-    color: #161C28;
+    color: #121212;
     letter-spacing: -2px;
     line-height: clamp(55px, 5vw, 80px);;
 }
 
 h2 {
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 400;
     font-size: clamp(36px, 5vw, 60px);
-    color: #161C28;
+    color: #121212;
     letter-spacing: -2px;
 }
 
 h3 {
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 400;
     font-size: clamp(30px, 5vw, 48px);
-    color: #161C28;
+    color: #121212;
     letter-spacing: -2px;
 }
 
 h4 {
     font-family: "Lato";
-    font-weight: 700;
-    font-size: clamp(24px, 5vw, 36px);
-    color: #161C28;
-    letter-spacing: -2px;
+    font-weight: 400;
+    font-size: clamp(24px, 6vw, 36px);
+    color: #121212;
+    letter-spacing: -1px;
 }
 
 h5 {
     font-family: "Lato";
-    font-weight: 700;
-    font-size: clamp(18px, 5vw, 24px);
-    color: #161C28;
+    font-weight: 400;
+    font-size: clamp(18px, 4vw, 24px);
+    color: #121212;
     letter-spacing: -1px;
 }
 
 p {
     font-family: "Lato";
-    font-weight: 400;
+    font-weight: 300;
     font-size: clamp(14px, 3.5vw, 20px);
-    color: #161C28;
+    color: #121212;
     line-height: 30px;
 }
-
-
-
-
 
 /* Come back and edit the mobile for a links */
 
@@ -107,30 +103,29 @@ p {
     font-family: "Lato";
     font-weight: 400;
     font-size: 16px;
-    color: #161C28;
+    color: #121212;
     text-decoration: none;
 }
 
 .eyebrow {
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
     letter-spacing: 1px;
-    color: #161C28;
+    color: #121212;
 }
 
 .grid-button {
     width: 130px;
     padding: 15px 0px;
     margin-top: 40px;
-    border-radius: 30px;
     border-style: none;
-    background-color: #161C28;
+    background-color: #121212;
     color: white;
     text-decoration: none;
     text-align: center;
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
 }
 
@@ -140,9 +135,9 @@ p {
 
 .kpi {
     font-family: "Lato";
-    font-weight: 400;
+    font-weight: 300;
     font-size: clamp(30px, 5vw, 48px);
-    color: #161C28;
+    color:#121212;
     letter-spacing: -2px;
 }
 
@@ -150,7 +145,6 @@ p {
     min-width: 125px;
     padding: 15px 0px;
     margin-top: 40px;
-    border-radius: 30px;
     border-style: none;
     color: #161C28;
     color: white;
