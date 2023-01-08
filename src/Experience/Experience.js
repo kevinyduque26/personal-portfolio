@@ -1,60 +1,173 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./Experience.css"
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+// import required modules
+import { Navigation, Pagination, Keyboard } from "swiper";
+
+
 function Experience() {
-
-    const [tab, setTab] = useState("London")
-
-    console.log(tab)
-
-    const handleClick = (city) => {
-        setTab(city)
-    }
-
 
     return (
         <div className="experience-container">
             <div className="experience-body">
-                <div className="experience-content">
-                    <h4> Senior Product Manager</h4>
-                    <p>Content will go here</p>
 
+                <div className="experience-title">
+                    <h2>Experience</h2>            
                 </div>
-                <div className="experience-tabs">
 
-                    <div id="London" className="tabcontent" style={{ display: tab === "London" ? "block" : "none"}} >
-                        <h1>London</h1>
-                        <p>London is the capital city of England.</p>
+                <div className="experience-item">
+                    <div className="experience-content">
+                        <div className="eyebrow">DIGITAL ASSET MANAGEMENT</div>                    
+                        <h4>Senior Product Manager</h4>
+                        <p>Bynder | Oct 2021 - Present</p>
+                        <div className="location">Houston, TX</div>    
                     </div>
+                    <div className="experience-swiper"> 
+                        <Swiper
+                            slidesPerView={1}
+                            spaceBetween={30}
+                            navigation={true}
+                            loop={true}
+                            pagination={{
+                            clickable: true,
+                            }}
+                            keyboard={true}
+                            modules={[Navigation, Pagination, Keyboard]}
+                            className="mySwiper"
+                            breakpoints={{
+                                1000: {
+                                    slidesPerView: 2,
+                                }
+                            }}
+                        >
+                            <SwiperSlide>
+                                <h5>Slide 1</h5>
+                            </SwiperSlide>
+                                
+                            <SwiperSlide>
+                                <h5>Slide 2</h5>
+                            </SwiperSlide>
 
-                    <div id="Paris" className="tabcontent" style={{ display: tab === "Paris" ? "block" : "none"}}>
-                        <h1>Paris</h1>
-                        <p>Paris is the capital of France.</p>
+                            <SwiperSlide>
+                                <h5>Slide 3</h5>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <h5>Slide 4</h5>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
+                </div>
 
-                    <div id="Tokyo" className="tabcontent">
-                        <h1>Tokyo</h1>
-                        <p>Tokyo is the capital of Japan.</p>
+                <div className="experience-item">
+                    <div className="experience-content">
+                        <div className="eyebrow">MACHINE LEARNING & AI</div>
+                        <h4>Senior Staff Technical Program Manager</h4>
+                        <p>Baker Hughes</p>
                     </div>
+                    <div className="experience-swiper"> 
+                        <Swiper
+                            slidesPerView={1}
+                            spaceBetween={30}
+                            navigation={true}
+                            loop={true}
+                            pagination={{
+                            clickable: true,
+                            }}
+                            keyboard={true}
+                            modules={[Navigation, Pagination, Keyboard]}
+                            className="mySwiper"
+                            breakpoints={{
+                                1000: {
+                                    slidesPerView: 2,
+                                }
+                            }}
+                        >
+                            <SwiperSlide>
+                                <h5>Slide 1</h5>
+                            </SwiperSlide>
+                                
+                            <SwiperSlide>
+                                <h5>Slide 2</h5>
+                            </SwiperSlide>
 
-                    <div id="Oslo" className="tabcontent">
-                        <h1>Oslo</h1>
-                        <p>Oslo is the capital of Norway.</p>
-                    </div> 
-                    <div className="buttons">
-                        <button className="tablink" onClick={() => handleClick("London")}>London</button>
-                        <button className="tablink" onClick={() => handleClick("Paris")}>Paris</button>
-                        {/* <button className="tablink" style={tab !== "Tokyo" && "backgroundColor: ''"} onclick={setTab("Tokyo")}>Tokyo</button>
-                        <button className="tablink" style={tab !== "Oslo" && "backgroundColor: ''"} onclick={setTab("Oslo")}>Oslo</button> */}
+                            <SwiperSlide>
+                                <h5>Slide 3</h5>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <h5>Slide 4</h5>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
+                </div>
 
+                <div className="experience-item">
+                    <div className="experience-content">
+                        <div className="eyebrow">MARKETING TECHNOLOGY</div>
+                        <h4>Senior Product Manager/ Product Manager</h4>
+                        <p>Baker Hughes</p>
+                    </div>
+                    <div className="experience-swiper"> 
+                        <Swiper
+                            slidesPerView={1}
+                            spaceBetween={30}
+                            navigation={true}
+                            loop={true}
+                            pagination={{
+                            clickable: true,
+                            }}
+                            keyboard={true}
+                            modules={[Navigation, Pagination, Keyboard]}
+                            className="mySwiper"
+                            breakpoints={{
+                                1000: {
+                                    slidesPerView: 2,
+                                }
+                            }}
+                        >
+                            <SwiperSlide>
+                                <h5>Slide 1</h5>
+                            </SwiperSlide>
+                                
+                            <SwiperSlide>
+                                <h5>Slide 2</h5>
+                            </SwiperSlide>
 
+                            <SwiperSlide>
+                                <h5>Slide 3</h5>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <h5>Slide 4</h5>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
+                </div>
+
+                <div className="experience-item-bottom">
+                    <div className="experience-content-bottom">
+                        <div className="eyebrow">INDUSTRIAL</div>
+                        <h4>Commercial Leadership Program</h4>
+                        <p>General Electric</p>
+                    </div>
+                    <div className="experience-content-bottom">
+                        <div className="eyebrow">VENTURE CAPITAL</div>
+                        <h4>Analyst</h4>
+                        <p>Brook Venture Partners</p>
+                    </div>
                 </div>
 
             </div>
-
-
         </div>
     )
 };

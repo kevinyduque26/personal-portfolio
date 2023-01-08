@@ -5,8 +5,8 @@ import "./Expertise.css"
 
 import { AiOutlineSketch, AiOutlineAppstore, AiOutlineUsergroupAdd, AiOutlineNodeIndex } from "react-icons/ai"
 
-import bhlogo from "./bh-logo.png"
-import gelogo from "./ge-logo.png"
+import bhlogo from "./Baker.png"
+import gelogo from "./Bynder.png"
 
 function Expertise() {
     return (

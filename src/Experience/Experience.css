@@ -3,61 +3,60 @@
   background-color: white;
 }
 
+
 .experience-body {
+  display: flex;
+  flex-direction: column;
   max-width: 1440px;
   margin: 0px auto;
-  display: flex;
-  flex-direction: row;
-  padding: 80px 16px;
+  padding: 120px 16px;
   /* background-color:blue; */
 }
 
-.experience-content {
-  min-width: 30%;
-  flex: .3;
-  background-color: #F8F8F8;
+.experience-title > h2 {
+  padding-bottom: 80px;
 }
 
-.experience-tabs {
-  min-width: 70%;
-  flex: .7;
-}
-
-.buttons {
+.experience-item {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  min-height: 400px;
 }
 
-/* Style the tab buttons */
-.tablink {
-  background-color: white;
-  /* color: white; */
-  /* float: left; */
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 50%;
+.experience-content {
+  min-width: 35%;
+  flex: .35;
+  padding-right: 30px;
 }
 
-/* Change background color of buttons on hover */
-.tablink:hover {
-  background-color: #777;
+.experience-content > h4 {
+  padding-top: 20px;
+
 }
 
-/* Set default styles for tab content */
-.tabcontent {
+.experience-swiper {
+  min-width: 65%;
+  flex: .65;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  padding: 25px;
   background-color: #F8F8F8;
-  display: none;
-  padding: 50px;
-  text-align: center;
-  min-width: 500px;
 }
 
-/* Style each tab content individually */
-/* #London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;} */
+.experience-item-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-content-bottom {
+  min-width: 50%;
+  flex: .5;
+}
+

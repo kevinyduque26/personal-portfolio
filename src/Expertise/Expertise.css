@@ -63,6 +63,7 @@
     .expertise-logos > img {
         min-width: 100%;
         flex: 1;
+        opacity: .5;
     }
     
     .expertise-cards {

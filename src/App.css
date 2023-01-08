@@ -97,6 +97,8 @@ p {
     line-height: 30px;
 }
 
+
+
 /* Come back and edit the mobile for a links */
 
 .nav-links {
@@ -139,6 +141,13 @@ p {
     font-size: clamp(30px, 5vw, 48px);
     color:#121212;
     letter-spacing: -2px;
+}
+
+.location {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #121212;
 }
 
 .flex-button {

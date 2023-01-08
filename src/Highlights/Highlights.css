@@ -29,7 +29,7 @@
     padding: 80px;
 }
 
-.highlights-card-top-bottom > .card-image > img{
+.highlights-card-top-bottom > .card-image > img {
     object-fit: cover;
     width: 100%;
 }
