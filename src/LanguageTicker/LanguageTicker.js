@@ -25,7 +25,7 @@ function LanguageTicker() {
     return (
         <div className="ticker-container">
             <div className="ticker-row">
-                <Ticker mode="smooth" speed="20" >
+                <Ticker mode="smooth" speed="30" >
                     {({ index }) => (
                         <>
                             <div style={{fontSize: `${size1}px`}} className="ticker-item">HTML</div>
@@ -49,7 +49,7 @@ function LanguageTicker() {
                 </Ticker>
             </div>
             <div className="ticker-row">
-                <Ticker mode="smooth" speed="20" offset="50">
+                <Ticker mode="smooth" speed="30" offset="50">
                     {({ index }) => (
                         <>
                             <div style={{fontSize: `${size9}px`}} className="ticker-item">Data Structures</div>

@@ -1,0 +1,22 @@
+.skills-education-container {
+    display: inline-block;
+    background-color: #F8F8F8;
+}
+
+.skills-education-body {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 120px 16px;
+}
+
+.skills-education-left {
+    min-width: 50%;
+    flex: .5;
+}
+
+.skills-education-right {
+    min-width: 50%;
+    flex: .5;
+}

@@ -19,13 +19,16 @@
 
 .experience-item {
   display: flex;
-  flex-direction: row;
-  min-height: 400px;
+  flex-direction: column;
+}
+
+.ei-padding-top {
+  padding-top: 30px;
 }
 
 .experience-content {
-  min-width: 35%;
-  flex: .35;
+  min-width: 100%;
+  flex: 1;
   padding-right: 30px;
 }
 
@@ -35,8 +38,8 @@
 }
 
 .experience-swiper {
-  min-width: 65%;
-  flex: .65;
+  min-width: 100%;
+  flex: .1;
 }
 
 .swiper {
@@ -50,13 +53,103 @@
   background-color: #F8F8F8;
 }
 
+.swiper-button-prev {
+  color: #747474 !important;
+  opacity: .2;
+}
+
+.swiper-button-next {
+  color: #747474 !important;
+  opacity: .2;
+}
+
+.swiper-pagination {
+  left: 40% !important; 
+  display: block;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #747474 !important;
+}
+
 .experience-item-bottom {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .experience-content-bottom {
-  min-width: 50%;
-  flex: .5;
+  min-width: 100%;
+  flex: 1;
 }
 
+@media screen and (min-width: 600px) {
+
+  .experience-item {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+  }
+
+  .experience-content {
+    min-width: 50%;
+    flex: .5;
+    padding-right: 30px;
+  }
+
+  .experience-swiper {
+    min-width: 50%;
+    flex: .5;
+  }
+
+  .swiper-pagination {
+    left: 38% !important; 
+  }
+
+  .experience-item-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .experience-content-bottom {
+    min-width: 50%;
+    flex: .5;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+
+  .experience-content {
+    min-width: 50%;
+    flex: .5;
+    padding-right: 30px;
+  }
+
+  .experience-swiper {
+    min-width: 50%;
+    flex: .5;
+  }
+
+  .swiper-pagination {
+    left: 40% !important; 
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+  .experience-content {
+    min-width: 35%;
+    flex: .35;
+  }
+
+  .experience-swiper {
+    min-width: 65%;
+    flex: .65;
+  }
+
+  .swiper-pagination {
+    left: 44% !important; 
+  }
+
+}

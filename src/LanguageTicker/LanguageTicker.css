@@ -5,7 +5,7 @@
 .ticker-item {
     display: inline;
     padding-right: 100px;
-    font-family: "Jakarta";
-    font-weight: 700;
+    font-family: "Lato";
+    font-weight: 400;
     white-space: nowrap;
 }

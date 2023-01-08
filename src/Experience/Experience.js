@@ -68,7 +68,7 @@ function Experience() {
                     </div>
                 </div>
 
-                <div className="experience-item">
+                <div className="experience-item ei-padding-top">
                     <div className="experience-content">
                         <div className="eyebrow">MACHINE LEARNING & AI</div>
                         <h4>Senior Staff Technical Program Manager</h4>
@@ -111,7 +111,7 @@ function Experience() {
                     </div>
                 </div>
 
-                <div className="experience-item">
+                <div className="experience-item ei-padding-top">
                     <div className="experience-content">
                         <div className="eyebrow">MARKETING TECHNOLOGY</div>
                         <h4>Senior Product Manager/ Product Manager</h4>
@@ -154,7 +154,7 @@ function Experience() {
                     </div>
                 </div>
 
-                <div className="experience-item-bottom">
+                <div className="experience-item-bottom ei-padding-top">
                     <div className="experience-content-bottom">
                         <div className="eyebrow">INDUSTRIAL</div>
                         <h4>Commercial Leadership Program</h4>

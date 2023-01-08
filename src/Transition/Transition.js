@@ -12,18 +12,18 @@ function Transition() {
 
                 <div className="transition-content transition-centered">
                     <div className="eyebrow">PASSIONS</div>
-                    <h2>My transition from day to night mode</h2>
-                    <p>Pursuing passions outside of work has given me opportunity to expand my skills, mind, and knowledge.</p>
+                    <h2>From day to night mode</h2>
+                    <p>Pursuing passions in my personal life has given me the opportunity to expand my skills, mind, and knowledge</p>
                 </div>
 
                 {/* Consider containing both images in a div for the width */}
 
-                <img src={left} alt="Lorem ipsum" className="image-left"></img>
-
-                <img src={right} alt="Lorem ipsum" className="image-right"></img>
+                <div className="transition-kevin-images">
+                    <img src={left} alt="Lorem ipsum" className="image-left"></img>
+                    <img src={right} alt="Lorem ipsum" className="image-right"></img>
+                </div>
 
             </div>
-
         </div>
     )
 }
