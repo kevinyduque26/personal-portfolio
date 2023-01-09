@@ -6,7 +6,7 @@ import { AiOutlineFilePdf, AiOutlineLinkedin, AiOutlineGithub } from "react-icon
 function QuicklinksFooter() {
     return (
         <>
-            <div className="quicklinks-footer-container full-bleed-quicklinks-footer">
+            <div className="quicklinks-footer-container">
                 <a class="quicklinks-footer-link" target="_blank" href="/" rel="noopener noreferrer">
                     <p className="icon">
                         <AiOutlineFilePdf />         

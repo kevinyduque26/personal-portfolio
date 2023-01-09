@@ -5,8 +5,8 @@ import "./Expertise.css"
 
 import { AiOutlineSketch, AiOutlineAppstore, AiOutlineUsergroupAdd, AiOutlineNodeIndex } from "react-icons/ai"
 
-import bhlogo from "./Baker.png"
-import gelogo from "./Bynder.png"
+import bhlogo2 from "./bh.svg"
+import gelogo2 from "./by.svg"
 
 function Expertise() {
     return (
@@ -16,8 +16,12 @@ function Expertise() {
                     <div className="expertise-title">
                         <h4>Trusted by many to bring products to market and execute</h4>
                         <div className="expertise-logos">
-                            <img src={bhlogo} alt="Baker Hughes logo"></img>
-                            <img src={gelogo} alt="General Electric logo"></img>
+
+                                <img src={bhlogo2} alt="Baker Hughes logo"></img>
+                                <img src={gelogo2} alt="General Electric logo"></img>
+                                <img src={bhlogo2} alt="Baker Hughes logo"></img>
+
+
                         </div>
 
                     </div>

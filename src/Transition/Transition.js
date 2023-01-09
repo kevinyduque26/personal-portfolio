@@ -11,8 +11,8 @@ function Transition() {
             <div className="transition-body">
 
                 <div className="transition-content transition-centered">
-                    <div className="eyebrow">PASSIONS</div>
-                    <h2>From day to night mode</h2>
+                    <h2>Passions</h2>
+                    <h5>From day to night mode</h5>
                     <p>Pursuing passions in my personal life has given me the opportunity to expand my skills, mind, and knowledge</p>
                 </div>
 

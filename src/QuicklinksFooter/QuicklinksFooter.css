@@ -1,14 +1,8 @@
-.full-bleed-quicklinks-footer {
-    box-shadow: 0 0 0 100vmax #121212;
-    clip-path: inset(0 -100vmax); 
-}
-
 .quicklinks-footer-container {
     display: flex;
     justify-content: space-around;
     margin: 0px;
     background-color: #121212;
-    padding-top: 80px;
 }
 
 .quicklinks-footer-link {

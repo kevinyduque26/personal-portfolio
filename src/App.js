@@ -13,9 +13,9 @@ import Highlights from './Highlights/Highlights';
 import Experience from './Experience/Experience';
 import SkillsEducation from './SkillsEducation/SkillsEducation';
 import Transition from './Transition/Transition';
-// import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
-// import FeaturedContent from './FeaturedContent/FeaturedContent';
-// import Footer from './Footer/Footer';
+import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
+import FeaturedContent from './FeaturedContent/FeaturedContent';
+import Footer from './Footer/Footer';
 
 // Likely omit
 // import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
@@ -47,9 +47,10 @@ function App() {
       <Experience />
       <SkillsEducation />
       <Transition />
-      {/* <MusicSpotlight />
+      <MusicSpotlight />
       <FeaturedContent />
-      <Footer /> */}
+      <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
+      <Footer />
       {/* <QuicklinksMain /> */}
     </main>
   )

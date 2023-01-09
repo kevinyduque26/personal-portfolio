@@ -9,8 +9,8 @@
     max-width: 25%;
 }
 
-.content-gallery-column video {
-    /* width: 100%; */
+.content-gallery-column > video {
+    width: 100%;
     display: block;
 }
 
@@ -18,12 +18,12 @@
     display: none !important;
 }
 
-.content-gallery-column img {
+.content-gallery-column > img {
     width: 100%;
     display: block;
 }
 
-.content-gallery-column audio {
+.content-gallery-column > audio {
     display: block;
 }
 

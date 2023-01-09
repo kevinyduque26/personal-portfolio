@@ -1,69 +1,93 @@
-/* .full-bleed-footer {
-    box-shadow: 0 0 0 100vmax #121212;
-    clip-path: inset(0 -100vmax); 
-} */
-
 .footer-main-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
+    display: inline-block;
     background-color: #121212;
-
 }
 
 .footer-main-body {
-    max-width: 720px;
-    justify-items: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
     margin: 0px auto;
+    padding: 0px 16px;
+}
 
+.footer-main-body .eyebrow {
+    color: white;
+}
 
+.footer-main-body h2 {
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-main-body p {
+    color: white;
+    opacity: .8;
+    margin-top: 20px;
 }
 
 .footer-main-content {
     display: flex;
     flex-direction: column;
+    margin: 80px 0px 40px 0px;
+    text-align: center;
     align-items: center;
-
 }
 
-.footer-main-content > .eyebrow {
-    padding-top: 120px;
+.footer-main-content-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 
-.footer-main-content > h2 {
-    padding-top: 20px;
-    color: white;
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    border-top: 1px solid;
+    border-color: rgba(255,255,255, .2);
+    align-items: center;
 }
 
-.footer-main-content > p {
-    padding-top: 40px;
-    color: white;
-    opacity: .8;
+.footer-bottom-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
 }
 
-.design-tag {
-    font-family: "Jakarta";
-    font-weight: 400;
-    font-size: 14px;
-    color: white;
-    opacity: .5;
-    padding: 120px 0px 40px 0px;
+.kd-footer-logo {
+    height: 40px;
+    vertical-align: top;
 }
 
-@media (max-width: 767px){
+.flt-padding-left {
+    margin-left: 25px;
+}
+
+.footer-link-text {
+    margin-left: 5px;
+}
+
+@media screen and (min-width: 600px) {
 
     .footer-main-content {
-        padding: 0px 25px;
+        padding: 120px 0px 80px 0px;
+        max-width: 540px;
+        margin: 0px auto;
     }
 
-    .footer-main-content > .eyebrow {
-        padding-top: 70px;
+    .footer-main-content-links {
+        margin-bottom: 120px;
     }
 
-    .design-tag {
-        padding: 40px 0px;
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
     }
+
+    .footer-bottom-links {
+        margin-top: unset;
+    }
+
 }
-

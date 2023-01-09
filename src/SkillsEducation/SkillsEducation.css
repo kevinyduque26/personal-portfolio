@@ -12,11 +12,44 @@
 }
 
 .skills-education-left {
-    min-width: 50%;
-    flex: .5;
+    min-width: 60%;
+    flex: .6;
+}
+
+.skills-education-left > h2 {
+    padding-bottom: 40px;
+}
+.skills-education-left > p {
+    padding-top: 10px;
+}
+
+.language-ticker {
+    padding-top: 40px;
+}
+
+.filler {
+    min-width: 10%;
+    flex: .1;
 }
 
 .skills-education-right {
-    min-width: 50%;
-    flex: .5;
+    min-width: 30%;
+    flex: .3;
+}
+
+.skills-education-right > h2 {
+    padding-bottom: 40px;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.ei-padding-top {
+    padding-top: 30px;
+}
+
+.education-item-school {
+    padding-left: 30px;
 }

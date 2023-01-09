@@ -9,7 +9,7 @@ function FeaturedContent() {
 
             <div className="featured-content">
 
-                <div>
+                <div className="feartured-content-title">
                     <h2>Featured content</h2>
                     <p>Just a sample of the content </p>
                 </div>
