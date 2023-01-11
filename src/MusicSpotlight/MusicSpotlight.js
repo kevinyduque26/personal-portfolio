@@ -20,8 +20,11 @@ function MusicSpotlight({ screenWidthSize }) {
                     </div>
 
                     <div className="music-spotlight-top-vid">
-                        <video src={videoDesktop} style={{ display: screenWidthSize < 767 && "none"}} autoPlay muted loop></video>
-                        <video src={videoMobile} style={{ display: screenWidthSize > 767 && "none"}} autoPlay muted loop></video>
+                        {screenWidthSize > 767 ? (
+                            <video src={videoDesktop} autoPlay muted loop></video>
+                        ) : (
+                            <video src={videoMobile} autoPlay muted loop></video>
+                        )}                       
                     </div>
                     
                 </div>

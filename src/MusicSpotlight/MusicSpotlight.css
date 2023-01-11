@@ -25,17 +25,17 @@
 
 .music-spotlight-top {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .music-spotlight-top-content {
-    min-width: 30%;
-    flex: .3;
+    min-width: 100%;
+    flex: 1;
 }
 
 .music-spotlight-top-vid {
-    min-width: 70%;
-    flex: .7;
+    min-width: 100%;
+    flex: 1;
     opacity: .5;
 }
 
