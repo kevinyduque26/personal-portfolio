@@ -21,9 +21,9 @@ function MusicSpotlight({ screenWidthSize }) {
 
                     <div className="music-spotlight-top-vid">
                         {screenWidthSize > 767 ? (
-                            <video src={videoDesktop} autoPlay playsinline muted loop></video>
+                            <video src={videoDesktop} autoPlay muted loop></video>
                         ) : (
-                            <video src={videoMobile} autoPlay playsinline muted loop></video>
+                            <video src={videoMobile} controls muted loop></video>
                         )}                       
                     </div>
                     
