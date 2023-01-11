@@ -30,7 +30,7 @@
 }
 
 .highlights-card-top-bottom > .card-image > img {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .highlights-card-middle > .card-image > img{
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
 }
 

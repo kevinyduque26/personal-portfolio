@@ -49,7 +49,7 @@ function App() {
       <Transition />
       <MusicSpotlight />
       <FeaturedContent />
-      <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
+      {/* <p style={{backgroundColor: "red"}}>{screenWidthSize}</p> */}
       <Footer />
       {/* <QuicklinksMain /> */}
     </main>

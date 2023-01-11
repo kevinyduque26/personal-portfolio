@@ -5,8 +5,25 @@
 }
 
 .content-gallery-column {
-    flex: .25;
-    max-width: 25%;
+    flex: 100%;
+    max-width: 100%;
+}
+
+.audio-container {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 5px;
+    text-align: center;
+}
+
+.audio-container > h5 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.content-gallery-column audio {
+    display: block;
+    width: 100%;
 }
 
 .content-gallery-column > video {
@@ -23,15 +40,11 @@
     display: block;
 }
 
-.content-gallery-column > audio {
-    display: block;
-}
-
 .content-gallery-column p {
     background-color: red;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 600px) {
 
     .content-gallery-column {
       flex: 50%;
@@ -40,11 +53,11 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 1000px) {
 
     .content-gallery-column {
-      flex: 100%;
-      max-width: 100%;
+      flex: .25;
+      max-width: 25%;
     }
 }
 

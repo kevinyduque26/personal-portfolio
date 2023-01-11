@@ -48,15 +48,15 @@ function Footer() {
                     <div className="footer-bottom-links">
 
                         <a class="footer-link" href="/">
-                            <div className="footer-link-text">About</div>
+                            <div>About</div>
                         </a>
 
                         <a class="footer-link flt-padding-left" href="/">
-                            <div className="footer-link-text">Experience</div>     
+                            <div>Experience</div>     
                         </a>
 
                         <a class="footer-link flt-padding-left" href="/">       
-                            <div className="footer-link-text">Passions</div>       
+                            <div>Passions</div>       
                         </a>
 
                     </div>

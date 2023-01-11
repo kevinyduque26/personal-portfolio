@@ -4,9 +4,9 @@
 import "./Highlights.css";
 
 //  File Import
-import cup from "./cup.jpeg";
-import bynder from "./bynder-logo.webp";
-import baker from "./baker-logo.png";
+import cup from "./fifa-highlight.png";
+import bynder from "./bynder-highlight.png";
+import baker from "./baker-highlight.png";
 
 function Highlights() {
     return (

@@ -75,8 +75,8 @@
 @media screen and (min-width: 800px) {
 
     .expertise-logos > img {
-        min-width: 50%;
-        flex: .5;
+        min-width: 25%;
+        flex: .22;
     }
 
     .expertise-cards {
