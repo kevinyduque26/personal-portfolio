@@ -11,7 +11,7 @@ function FeaturedContent() {
 
                 <div className="feartured-content-title">
                     <h2>Featured content</h2>
-                    <p>Beats, memories, recaps. Experiences are good excuse to create something. </p>
+                    <p>Beats, photgraphy, and video recaps. I try to find opportunities to create something. </p>
                 </div>
 
                 <ContentGallery />

@@ -69,7 +69,7 @@
     margin-left: 5px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
 
     .footer-main-content {
         padding: 120px 0px 80px 0px;

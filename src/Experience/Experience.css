@@ -119,17 +119,6 @@
 
 @media screen and (min-width: 800px) {
 
-  .experience-content {
-    min-width: 50%;
-    flex: .5;
-    padding-right: 30px;
-  }
-
-  .experience-swiper {
-    min-width: 50%;
-    flex: .5;
-  }
-
   .swiper-pagination {
     left: 40% !important; 
   }

@@ -5,15 +5,15 @@
 
 .skills-education-body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 1440px;
     margin: 0px auto;
     padding: 120px 16px;
 }
 
 .skills-education-left {
-    min-width: 60%;
-    flex: .6;
+    min-width: 100%;
+    flex: 1;
 }
 
 .skills-education-left > h2 {
@@ -28,13 +28,13 @@
 }
 
 .filler {
-    min-width: 10%;
-    flex: .1;
+    min-width: 100%;
+    flex: 1;
 }
 
 .skills-education-right {
-    min-width: 30%;
-    flex: .3;
+    min-width: 100%;
+    flex: 1;
 }
 
 .skills-education-right > h2 {
@@ -52,4 +52,33 @@
 
 .education-item-school {
     padding-left: 30px;
+}
+
+@media screen and (min-width: 600px) {
+}
+  
+@media screen and (min-width: 800px) {
+
+    .skills-education-body {
+        flex-direction: row;
+    }
+
+    .skills-education-left {
+        min-width: 60%;
+        flex: .6;
+    }
+
+    .filler {
+        min-width: 10%;
+        flex: .1;
+    }
+
+    .skills-education-right {
+        min-width: 30%;
+        flex: .3;
+    }
+
+}
+  
+@media screen and (min-width: 1000px) {
 }

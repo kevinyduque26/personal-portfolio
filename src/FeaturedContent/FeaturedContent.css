@@ -8,7 +8,8 @@
     flex-direction: column;
     max-width: 1440px;
     margin: 0px auto;
-    padding: 120px 16px;
+    padding: 80px 16px 0px 16px;
+    /* background-color: red; */
 }
 
 .featured-content h2 {
@@ -18,5 +19,17 @@
 .featured-content p {
     color: white;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+}
+  
+@media screen and (min-width: 800px) {
+
+    .featured-content {
+        padding: 120px 16px 0px 16px;
+    }
+
+    .featured-content p {
+        margin-bottom: 80px;
+    }
+
 }

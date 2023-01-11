@@ -47,9 +47,10 @@ function App() {
       <Experience />
       <SkillsEducation />
       <Transition />
+      <p style={{backgroundColor: "blue"}}>{screenWidthSize}</p>
       <MusicSpotlight />
       <FeaturedContent />
-      {/* <p style={{backgroundColor: "red"}}>{screenWidthSize}</p> */}
+
       <Footer />
       {/* <QuicklinksMain /> */}
     </main>

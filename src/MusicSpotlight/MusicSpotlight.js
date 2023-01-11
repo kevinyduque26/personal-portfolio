@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./MusicSpotlight.css"
-import video from "./video.MOV"
+import video from "./music-loop-720.m4v"
 
 function MusicSpotlight() {
     return (
