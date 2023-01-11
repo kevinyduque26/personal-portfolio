@@ -48,7 +48,7 @@ function App() {
       <SkillsEducation />
       <Transition />
       <p style={{backgroundColor: "blue"}}>{screenWidthSize}</p>
-      <MusicSpotlight />
+      <MusicSpotlight screenWidthSize={screenWidthSize} />
       <FeaturedContent />
 
       <Footer />

@@ -1,9 +1,10 @@
 import React from "react";
 
 import "./MusicSpotlight.css"
-import video from "./music-loop-720.m4v"
+import videoDesktop from "./music-loop-720.m4v"
+import videoMobile from "./music-loop-480.mov"
 
-function MusicSpotlight() {
+function MusicSpotlight({ screenWidthSize }) {
     return (
 
         <div className="music-spotlight-container">
@@ -19,7 +20,8 @@ function MusicSpotlight() {
                     </div>
 
                     <div className="music-spotlight-top-vid">
-                        <video src={video} autoPlay muted loop></video>
+                        <video src={videoDesktop} style={{ display: screenWidthSize < 767 && "none"}} autoPlay muted loop></video>
+                        <video src={videoMobile} style={{ display: screenWidthSize > 767 && "none"}} autoPlay muted loop></video>
                     </div>
                     
                 </div>
