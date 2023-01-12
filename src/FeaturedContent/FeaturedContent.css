@@ -18,6 +18,7 @@
 
 .featured-content p {
     color: white;
+    opacity: .8;
     margin-top: 20px;
     margin-bottom: 40px;
 }

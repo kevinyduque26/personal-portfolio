@@ -12,8 +12,9 @@
 .audio-container {
     display: flex;
     flex-direction: column;
-    padding: 35px 5px;
+    padding: 25px;
     text-align: center;
+    background-color: #1E1E1E;
 }
 
 .audio-container > h5 {
@@ -21,9 +22,14 @@
     margin-bottom: 25px;
 }
 
-.content-gallery-column audio {
+audio {
     display: block;
     width: 100%;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
 }
 
 .content-gallery-column > video {

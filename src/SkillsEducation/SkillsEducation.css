@@ -8,7 +8,7 @@
     flex-direction: column;
     max-width: 1440px;
     margin: 0px auto;
-    padding: 120px 16px;
+    padding: 80px 16px;
 }
 
 .skills-education-left {
@@ -17,28 +17,28 @@
 }
 
 .skills-education-left > h2 {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 .skills-education-left > p {
-    padding-top: 10px;
+    margin-top: 20px;
 }
 
 .language-ticker {
-    padding-top: 40px;
-}
-
-.filler {
-    min-width: 100%;
-    flex: 1;
+    margin-top: 40px;
 }
 
 .skills-education-right {
     min-width: 100%;
     flex: 1;
+    margin-top: 80px;
 }
 
-.skills-education-right > h2 {
-    padding-bottom: 40px;
+.skills-education-right h2 {
+    margin-bottom: 40px;
+}
+
+.skills-education-right p {
+    margin-top: 10px;
 }
 
 .education-item {
@@ -46,18 +46,49 @@
     flex-direction: row;
 }
 
-.ei-padding-top {
-    padding-top: 30px;
+.ei-margin-top {
+    margin-top: 40px;
 }
 
 .education-item-school {
-    padding-left: 30px;
-}
-
-@media screen and (min-width: 600px) {
+    margin-left: 20px;
 }
   
 @media screen and (min-width: 800px) {
+
+    .skills-education-body {
+        padding: 120px 16px;
+    }
+
+    .skills-education-right {
+        margin-top: 120px;
+    }
+
+    .education-items {
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+    }
+
+    .education-item {
+        display: flex;
+        flex-direction: column;
+        min-width: 30%;
+        flex: .3;
+    }
+
+    .ei-margin-top {
+        margin-top: unset;
+    }
+
+    .education-item-school {
+        margin-left: unset;
+        margin-top: 20px;
+    }
+
+}
+  
+@media screen and (min-width: 1000px) {
 
     .skills-education-body {
         flex-direction: row;
@@ -76,9 +107,25 @@
     .skills-education-right {
         min-width: 30%;
         flex: .3;
+        margin-top: unset;
     }
 
-}
-  
-@media screen and (min-width: 1000px) {
+    .education-items {
+        flex-direction: column;
+        gap: unset;
+    }
+
+    .education-item {
+        flex-direction: row;
+    }
+
+    .ei-margin-top {
+        margin-top: 40px;
+    }
+
+    .education-item-school {
+        margin-left: 20px;
+        margin-top: unset;
+    }
+
 }

@@ -8,7 +8,7 @@
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    padding: 120px 16px;
+    padding: 0px 16px;
 }
 
 .music-spotlight-body h4 {
@@ -21,6 +21,8 @@
 
 .music-spotlight-body p {
     color: white;
+    opacity: .8;
+    margin-top: 20px;
 }
 
 .music-spotlight-top {
@@ -36,7 +38,7 @@
 .music-spotlight-top-vid {
     min-width: 100%;
     flex: 1;
-    opacity: .5;
+    margin: 40px 0px;
 }
 
 .music-spotlight-top-vid > video {
@@ -46,5 +48,69 @@
 
 .music-spotlight-bottom {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.music-spotlight-bottom-content {
+    padding: 25px;
+    background-color: #1E1E1E;
+}
+
+.msbc-margin-top {
+    margin-top: 25px;
+}
+
+/* @media screen and (min-width: 600px) {
+} */
+  
+@media screen and (min-width: 800px) {
+
+    .music-spotlight-body {
+        padding: 0px 16px;
+    }
+
+    .music-spotlight-top-vid {
+        margin: 80px 0px;
+    }
+
+}
+  
+@media screen and (min-width: 1000px) {
+
+    .music-spotlight-top {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .music-spotlight-top-content {
+        min-width: 30%;
+        flex: .3;
+        padding-right: 25px;
+    }
+    
+    .music-spotlight-top-vid {
+        min-width: 70%;
+        flex: .7;
+        margin: 0px 0px;
+    }
+
+    .music-spotlight-bottom {
+        flex-direction: row;
+        margin-top: 80px;
+    }
+
+    .music-spotlight-bottom-content {
+        flex: .32;
+        min-width: 32%;
+    }
+
+    .music-filler {
+        flex: .02;
+        min-width: 2%;
+    }
+
+    .msbc-margin-top {
+        margin-top: unset;
+    }
+
 }

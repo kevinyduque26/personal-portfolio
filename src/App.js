@@ -17,9 +17,6 @@ import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
 import FeaturedContent from './FeaturedContent/FeaturedContent';
 import Footer from './Footer/Footer';
 
-// Likely omit
-// import QuicklinksMain from './QuicklinksMain/QuicklinksMain';
-
 // THINGS LEFT TO DO
 // Mobilelinks & Deskptop Links: Need to add links to secitons of the page and add ID in those sections
 
@@ -45,14 +42,12 @@ function App() {
       <Highlights />
       <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
       <Experience />
+      <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
       <SkillsEducation />
       <Transition />
-      <p style={{backgroundColor: "blue"}}>{screenWidthSize}</p>
       <MusicSpotlight screenWidthSize={screenWidthSize} />
       <FeaturedContent />
-
       <Footer />
-      {/* <QuicklinksMain /> */}
     </main>
   )
 };
