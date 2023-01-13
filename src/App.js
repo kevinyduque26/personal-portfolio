@@ -9,7 +9,6 @@ import Hero from './Hero/Hero';
 import About from './About/About';
 import Expertise from './Expertise/Expertise';
 import Highlights from './Highlights/Highlights';
-
 import Experience from './Experience/Experience';
 import SkillsEducation from './SkillsEducation/SkillsEducation';
 import Transition from './Transition/Transition';

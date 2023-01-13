@@ -9,12 +9,27 @@
   flex-direction: column;
   max-width: 1440px;
   margin: 0px auto;
-  padding: 120px 16px;
-  /* background-color:blue; */
+  padding: 80px 16px;
 }
 
-.experience-title > h2 {
-  padding-bottom: 80px;
+.experience-body h2 {
+  margin-bottom: 40px;
+}
+
+.experience-body h4 {
+  margin-top: 20px;
+}
+
+.experience-body p {
+  margin-top: 20px;
+}
+
+.company {
+  margin-top: 10px;
+}
+
+.location-date {
+  margin-top: 10px;
 }
 
 .experience-item {
@@ -23,23 +38,18 @@
 }
 
 .ei-padding-top {
-  padding-top: 30px;
+  margin-top: 40px;
 }
 
 .experience-content {
   min-width: 100%;
   flex: 1;
-  padding-right: 30px;
-}
-
-.experience-content > h4 {
-  padding-top: 20px;
-
 }
 
 .experience-swiper {
   min-width: 100%;
   flex: .1;
+  margin-top: 40px;
 }
 
 .swiper {
@@ -48,9 +58,16 @@
 }
 
 .swiper-slide {
-  font-size: 18px;
-  padding: 25px;
+  padding: 0px 60px;
   background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.swiper-slide h5 {
+  margin-top: 20px;
 }
 
 .swiper-button-prev {
@@ -64,12 +81,11 @@
 }
 
 .swiper-pagination {
-  left: 40% !important; 
-  display: block;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #747474 !important;
+    opacity: .5;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 12px;
+    top: 88% !important;
 }
 
 .experience-item-bottom {
@@ -99,10 +115,7 @@
   .experience-swiper {
     min-width: 50%;
     flex: .5;
-  }
-
-  .swiper-pagination {
-    left: 38% !important; 
+    margin-top: unset;
   }
 
   .experience-item-bottom {
@@ -111,16 +124,29 @@
   }
   
   .experience-content-bottom {
-    min-width: 50%;
-    flex: .5;
+    min-width: 45%;
+    flex: .45;
+  }
+
+  .experience-filler {
+    min-width: 5%;
+    flex: .05;
   }
 
 }
 
 @media screen and (min-width: 800px) {
 
-  .swiper-pagination {
-    left: 40% !important; 
+  .experience-body {
+    padding: 120px 16px;
+  }
+
+  .experience-title h2 {
+    margin-bottom: 80px;
+  }
+
+  .ei-padding-top {
+    margin-top: 80px;
   }
 
 }
@@ -135,10 +161,6 @@
   .experience-swiper {
     min-width: 65%;
     flex: .65;
-  }
-
-  .swiper-pagination {
-    left: 44% !important; 
   }
 
 }

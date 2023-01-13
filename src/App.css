@@ -79,6 +79,7 @@ h4 {
     font-size: clamp(24px, 6vw, 36px);
     color: #121212;
     letter-spacing: -1px;
+    line-height: 40px;
 }
 
 h5 {
@@ -87,6 +88,7 @@ h5 {
     font-size: clamp(18px, 4vw, 24px);
     color: #121212;
     letter-spacing: -1px;
+    line-height: 30px;
 }
 
 p {
@@ -96,8 +98,6 @@ p {
     color: #121212;
     line-height: 30px;
 }
-
-
 
 /* Come back and edit the mobile for a links */
 
@@ -143,10 +143,30 @@ p {
     letter-spacing: -2px;
 }
 
-.location {
+.text-link {
     font-family: "Lato";
     font-weight: 300;
-    font-size: 16px;
+    font-size: clamp(14px, 3.5vw, 20px);
+    color: #121212;
+    line-height: 30px;
+}
+
+.text-link:hover {
+    opacity: .6;
+}
+
+.company {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: clamp(14px, 3.5vw, 20px);
+    color: #121212;
+    line-height: 30px;
+}
+
+.location-date {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: clamp(12px, 3.5vw, 16px);
     color: #121212;
 }
 
