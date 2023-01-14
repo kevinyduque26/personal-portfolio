@@ -37,11 +37,11 @@ function App() {
       <Navigation screenWidthSize={screenWidthSize} />
       <Hero screenWidthSize={screenWidthSize} />
       <About />
+      {/* <p style={{backgroundColor: "red"}}>{screenWidthSize}</p> */}
       <Expertise />
       <Highlights />
-      <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
+      {/* <p style={{backgroundColor: "red"}}>{screenWidthSize}</p> */}
       <Experience />
-      <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
       <SkillsEducation />
       <Transition />
       <MusicSpotlight screenWidthSize={screenWidthSize} />

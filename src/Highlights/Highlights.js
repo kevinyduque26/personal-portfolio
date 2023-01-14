@@ -4,7 +4,7 @@
 import "./Highlights.css";
 
 //  File Import
-import cup from "./fifa-highlight.png";
+import fifa from "./fifa-highlight.png";
 import bynder from "./bynder-highlight.png";
 import baker from "./baker-highlight.png";
 
@@ -16,7 +16,8 @@ function Highlights() {
 
                 <div className="highlights-card-top-bottom">
                     <div className="card-image">
-                        <img src={cup} alt="test"></img>
+                        <div className="highlights-overlay"></div>
+                        <img src={fifa} alt="test"></img>
                     </div>
                     <div className="card-content">
                         <div className="eyebrow">FEATURE RELEASE</div>
@@ -28,7 +29,8 @@ function Highlights() {
                 <div className="highlights-card-middle">
 
                     <div className="card-image">
-                        <img src={bynder} alt="test"></img>
+                        <div className="highlights-overlay"></div>
+                        <img src={bynder} alt="test"></img>                        
                     </div>
                     <div className="card-content">
                         <div className="eyebrow">M&A</div>
@@ -40,6 +42,7 @@ function Highlights() {
                 <div className="highlights-card-top-bottom">
 
                     <div className="card-image">
+                        <div className="highlights-overlay"></div>
                         <img src={baker} alt="test"></img>
                     </div>
                     <div className="card-content">
