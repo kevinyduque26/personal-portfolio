@@ -26,7 +26,7 @@ function Highlights() {
                     </div>
                 </div>
 
-                <div className="highlights-card-middle">
+                <div className="highlights-card-middle hc-margin-top">
 
                     <div className="card-image">
                         <div className="highlights-overlay"></div>
@@ -39,7 +39,7 @@ function Highlights() {
                     </div>
                 </div>
                 
-                <div className="highlights-card-top-bottom">
+                <div className="highlights-card-top-bottom hc-margin-top">
 
                     <div className="card-image">
                         <div className="highlights-overlay"></div>
