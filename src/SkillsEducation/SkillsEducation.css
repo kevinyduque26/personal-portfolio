@@ -6,7 +6,7 @@
 .skills-education-body {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0px auto;
     padding: 80px 16px 0px 16px;
 }

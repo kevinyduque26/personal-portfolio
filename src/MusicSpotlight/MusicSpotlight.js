@@ -37,7 +37,7 @@ function MusicSpotlight({ screenWidthSize }) {
                     </div>
                     <div className="music-filler"></div>
                     <div className="music-spotlight-bottom-content msbc-margin-top">
-                        <h5>Opening act for Sean Kingston &amp; T-Pain</h5>
+                        <h5>Sean Kingston &amp; T-Pain</h5>
                         <p>After over 200+ gigs, I got the opportunity to open up for Sean Kingston and later, T-Pain.</p>
                     </div>
                     <div className="music-filler"></div>

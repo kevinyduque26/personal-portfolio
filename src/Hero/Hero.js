@@ -26,6 +26,7 @@ function Hero({ screenWidthSize }) {
                         <img 
                             src={mobilePicture} 
                             alt="Kevin Duque's personal brand logo" 
+                            className="hero-image-mobile"
                         />
                     ) : (
                         <img 

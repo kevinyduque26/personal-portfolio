@@ -4,14 +4,13 @@
 }
 
 .about-body {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
     /* gap: 30px; */
     padding: 40px 16px;
     background-color: white;
-
 }
 
 .about-content-item {
