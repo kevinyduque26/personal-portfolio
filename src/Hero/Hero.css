@@ -31,8 +31,8 @@
 
 .hero-container-media {
     grid-area: overlap;
-    min-height: 650px;
-    max-height: 650px;
+    /* min-height: 650px; */
+    max-height: 90vh;
     width: 100%;
     overflow: hidden;
 }
@@ -67,6 +67,7 @@
         max-width: 1440px;
         margin: 0px auto;
         align-items: center;
+        padding: 0px 120px;
     }
 
     .hero-container-content {
@@ -78,15 +79,12 @@
 
     .hero-container-media {
         grid-area: heroright;
-        max-height: 900px;
+        max-height: 80vh;
+
     }
 
     .hero-overlay {
         display: none;
     }
 
-}
-
-.react-icons {
-    padding-top: 5px;
 }
