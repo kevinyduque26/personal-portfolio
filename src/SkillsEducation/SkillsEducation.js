@@ -28,7 +28,7 @@ function SkillsEducation() {
                                 <h5>2022</h5>
                             </div>
                             <div className="education-item-school">
-                                <h5>Full-Stack Software Enginering Certificate</h5>
+                                <h5>Full-Stack Software Engineering Certificate</h5>
                                 <p>Thinkful</p>
                             </div>
                         </div>
