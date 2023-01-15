@@ -5,81 +5,110 @@ import "./Expertise.css"
 
 import { AiOutlineSketch, AiOutlineAppstore, AiOutlineUsergroupAdd, AiOutlineNodeIndex } from "react-icons/ai"
 
-import bhlogo2 from "./bh.svg"
-import gelogo2 from "./by.svg"
+import bylogo from "./by-logo.svg"
+import bhlogo from "./bh-logo.svg"
+import gelogo from "./ge-logo.svg"
+import fflogo from "./ff-logo.svg"
+import bplogo from  "./bp-logo.svg"
+import eqlogo from "./eq-logo.svg"
+import salogo from "./sa-logo.svg"
+import yplogo from "./yp-logo.svg"
 
 function Expertise() {
     return (
         <div className="expertise-container">
+
             <div className="expertise-body">
  
-                    <div className="expertise-title">
-                        <h4>Trusted by many to bring products to market and execute</h4>
-                        <div className="expertise-logos">
-
-                                <img src={bhlogo2} alt="Baker Hughes logo"></img>
-                                <img src={gelogo2} alt="General Electric logo"></img>
-                                <img src={bhlogo2} alt="Baker Hughes logo"></img>
-
-
-                        </div>
-
-                    </div>
-
-                    <div className="expertise-cards">
-
-                        <div className="expertise-card">
-                            <p>
-                                <AiOutlineSketch />
-                            </p>
-                            <h5>Vision & Strategy</h5>
-                            <p>Lorem ipsum loremipsum lorem ipsum lorem ipsum Lorem ipsum loremipsum lorem ipsum lorem ipsum</p>
-                        </div>
-
-                        <div className="expertise-card ec-mobile-padding-top">
-                            <p>
-                                <AiOutlineAppstore />
-                            </p>
-                            <h5>Feature Roadmap</h5>
-                            <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum loremipsum lorem ipsum lorem ipsum</p>
-                        </div>
-
-                        <div className="expertise-card ec-mobile-padding-top ec-table-padding-top">
-                            <p>
-                                <AiOutlineUsergroupAdd />
-                            </p>
-                            <h5>User Experience</h5>
-                            <p>Lorem ipsumcmxnb vgnkj d bgkn bfgnb lorem ipsum lorem ipsum lorem ipsum Lorem ipsum loremipsum lorem ipsum lorem ipsum</p>
-                        </div>
-
-                        <div className="expertise-card ec-mobile-padding-top ec-table-padding-top">
-                            <p>
-                                <AiOutlineNodeIndex />
-                            </p>
-                            <h5>Data Analysis</h5>
-                            <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum loremipsum lorem ipsum lorem ipsum</p>
-                        </div>
-
-
-                        <div className="expertise-card ec-mobile-padding-top ec-table-padding-top">
-                            <p>
-                                <AiOutlineUsergroupAdd />
-                            </p>
-                            <h5>Stakeholder Management</h5>
-                            <p>Lorem ipsumcmxnb vgnkj d bgkn bfgnb lorem ipsum lorem ipsum lorem ipsum Lorem ipsum loremipsum lorem ipsum lorem ipsum</p>
-                        </div>
-
-                        <div className="expertise-card ec-mobile-padding-top ec-table-padding-top">
-                            <p>
-                                <AiOutlineNodeIndex />
-                            </p>
-                            <h5>Decision Making</h5>
-                            <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum loremipsum lorem ipsum lorem ipsum</p>
-                        </div>
+                <div className="expertise-title">
+                    <h4>Trusted by many to bring products to market and execute</h4>
+                    <div className="expertise-logos">                            
                         
+                        <img src={fflogo} alt="FIFA logo" className="expertise-logo-special"></img>
+                        <img src={bhlogo} alt="Baker Hughes logo" className="expertise-logo el-margin-top-600"></img>
+                        <img src={bplogo} alt="British Petroleum logo" className="expertise-logo el-margin-top-600 el-margin-top-800"></img>
+                        <img src={bylogo} alt="Bynder logo" className="expertise-logo el-margin-top-600 el-margin-top-800"></img>
+
+                        <img src={eqlogo} alt="Equinor logo" className="expertise-logo el-margin-top el-margin-top-800"></img>
+                        <img src={yplogo} alt="YPF logo" className="expertise-logo-special el-margin-top el-margin-top-800"></img>
+                        <img src={gelogo} alt="General Electric logo" className="expertise-logo el-margin-top el-margin-top-800"></img>
+                        <img src={salogo} alt="Saudi Aramco logo" className="expertise-logo el-margin-top el-margin-top-800"></img>
+
+                    </div>
+                </div>
+
+                <div className="expertise-cards">
+
+                    <div className="expertise-card">
+                        <div className="expertise-card-icon">
+                            <AiOutlineSketch />
+                        </div>
+                        <h5>Vision & Strategy</h5>
+                        <p>
+                            I excel with setting vision and strategy at the full product or product team level with a focus on simplicity.
+                            Ideally, its broken down into three parts (ex. crawl, walk, run) and easily shows the path forward and business value.
+                        </p>
                     </div>
 
-                <div className="expertise-background"></div>
+                    <div className="expertise-card ec-mobile-margin-top">
+                        <div className="expertise-card-icon">
+                            <AiOutlineAppstore />
+                        </div>
+                        <h5>Feature Roadmap</h5>
+                        <p>
+                            I leverage my feature roadmap to align execution across multiple stakeholders including UX, engineering, customer success, sales, and support.
+                            I'll create different versions depending on the auidence, especially customers. 
+                        </p>
+                    </div>
+
+                    <div className="expertise-card ec-mobile-margin-top ec-tablet-margin-top">
+                        <div className="expertise-card-icon">
+                            <AiOutlineUsergroupAdd />
+                        </div>
+                        <h5>User Experience</h5>
+                        <p>
+                            I like to conduct hands on user research and speak directly with customers and users to understand their problem and needs. 
+                            This translates into new feature candidates with good user experience and design at the forefront.
+                        </p>
+                    </div>
+
+                    <div className="expertise-card ec-mobile-margin-top ec-tablet-margin-top">
+                        <div className="expertise-card-icon">
+                            <AiOutlineNodeIndex />
+                        </div>
+                        <h5>Data Analysis</h5>
+                        <p>
+                            I make usage tracking part of the definition of done where possible and focus on impactful metrics that are tied directly to my OKRs.
+                            I avoid analysis paralysis and use proxies when needed, especially in greenfield proposals. 
+                        </p>
+
+                    </div>
+
+
+                    <div className="expertise-card ec-mobile-margin-top ec-tablet-margin-top">
+                        <div className="expertise-card-icon">
+                            <AiOutlineUsergroupAdd />
+                        </div>
+                        <h5>Stakeholder Management</h5>
+                        <p>
+                            I take the time to learn and understand which communication methods are effective within the organization and who should be in my stakeholder group.
+                            I'm transperant and communicate often even with tough news.
+                        </p>
+                    </div>
+
+                    <div className="expertise-card ec-mobile-margin-top ec-tablet-margin-top">
+                        <div className="expertise-card-icon">
+                            <AiOutlineNodeIndex />
+                        </div>
+                        <h5>Leadership</h5>
+                        <p>
+                            I put people first and invest time in mentoring and coaching others. I take accountability for my decisions and own up to my mistakes.
+                            I believe in moving fast with less but stay disciplined with a good process and framework.
+                        </p>
+                    </div>
+                    
+                </div>
+
             </div>
         </div>
     )

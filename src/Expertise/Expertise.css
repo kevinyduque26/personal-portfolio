@@ -9,11 +9,20 @@
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    padding: 80px 16px;
-    /* background-color:blue; */
+    padding: 80px 16px 0px 16px;
+}
+
+.expertise-body h5 {
+    margin-top: 5px;
+}
+
+.expertise-body p {
+    margin-top: 20px;
 }
 
 .expertise-title {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     flex: 1;
     text-align: center;
@@ -23,12 +32,24 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    margin: 40px 0px;
 }
 
-.expertise-logos > img {
-    min-width: 50%;
-    flex: .5;
-    object-fit: contain;
+.expertise-logo {
+    height: 50px;
+    flex: .25;
+    min-width: 25%;
+}
+
+.expertise-logo-special {
+    height: 25px;
+    min-width: 25%;
+    flex: .25;
+}
+
+.el-margin-top {
+    margin-top: 40px;
 }
 
 .expertise-cards {
@@ -38,13 +59,14 @@
     flex: 1;
 }
 
-.expertise-card {
-    /* background-color: white; */
-    padding: 0px 25px;
+.expertise-card-icon {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 25px;
 }
 
-.ec-mobile-padding-top {
-    padding-top: 25px;
+.ec-mobile-margin-top {
+    margin-top: 40px;
 }
 
 @media screen and (min-width: 600px) {
@@ -60,9 +82,26 @@
         padding-right: 25px;
     }
 
-    .expertise-logos > img {
-        min-width: 100%;
+    .expertise-logos {
+        flex-direction: column;
+    }
+
+    .expertise-logo {
+        max-height: 50px;
+        width: 100%;
         flex: 1;
+        object-fit: contain;
+    }
+
+    .expertise-logo-special {
+        max-height: 25px;
+        width: 100%;
+        flex: 1;
+        object-fit: contain;
+    }
+
+    .el-margin-top-600 {
+        margin-top: 40px;
     }
     
     .expertise-cards {
@@ -70,13 +109,46 @@
         flex: .7;
     }
 
+    .expertise-card {
+        padding: 0px 25px;
+    }
+
 }
 
 @media screen and (min-width: 800px) {
 
-    .expertise-logos > img {
-        min-width: 25%;
-        flex: .22;
+    .expertise-body {
+        padding: 120px 16px 0px 16px;
+        flex-direction: row;
+    }
+
+    .expertise-logos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .expertise-logo {
+        max-height: 50px;
+        min-width: 50%;
+        flex: .5;
+    }
+
+    .expertise-logo-special {
+        max-height: 25px;
+        min-width: 50%;
+        flex: .5;
+    }
+    
+    .el-margin-top {
+        margin-top: unset;
+    }
+
+    .el-margin-top-600 {
+        margin-top: unset;
+    }
+
+    .el-margin-top-800 {
+        margin-top: 40px;
     }
 
     .expertise-cards {
@@ -87,24 +159,43 @@
     .expertise-card {
         min-width: 50%;
         flex: .5;
+        padding: 0px 30px;
     }
 
-    .ec-mobile-padding-top {
-        padding-top: unset;
+    .ec-mobile-margin-top {
+        margin-top: unset;
     }
 
-    .ec-table-padding-top {
-        padding-top: 30px;
+    .ec-tablet-margin-top {
+        margin-top: 40px;
     }
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
 
-    .expertise-body {
-        padding: 120px 16px;
-        flex-direction: row;
+    .expertise-logo {
+        max-height: 50px;
+        min-width: 25%;
+        flex: .25;
     }
 
+    .expertise-logo-special {
+        max-height: 25px;
+        min-width: 25%;
+        flex: .25;
+    }
+
+    .el-margin-top-800 {
+        margin-top: unset;
+    }
+
+    .el-margin-top {
+        margin-top: 40px;
+    }
+
+    .expertise-card {
+        padding: 0px 40px;
+    }
 
 }

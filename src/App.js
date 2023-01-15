@@ -16,12 +16,6 @@ import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
 import FeaturedContent from './FeaturedContent/FeaturedContent';
 import Footer from './Footer/Footer';
 
-// THINGS LEFT TO DO
-// Mobilelinks & Deskptop Links: Need to add links to secitons of the page and add ID in those sections
-
-// IN TEXT LINK FORMAT
-// <a className="text-link" target="_blank" href="https://www.bynder.com/en/" rel="noopener noreferrer">Bynder</a>
-
 function App() {
 
   const [screenWidthSize, setScreenWidthSize] = useState(window.innerWidth)
@@ -37,9 +31,7 @@ function App() {
       <Navigation screenWidthSize={screenWidthSize} />
       <Hero screenWidthSize={screenWidthSize} />
       <About />
-      <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
       <Expertise />
-      <p style={{backgroundColor: "red"}}>{screenWidthSize}</p>
       <Highlights />
       <Experience />
       <SkillsEducation />

@@ -2,12 +2,12 @@ import React from "react";
 
 import "./Transition.css"
 
-import left from "./Standing 1.png"
-import right from "./Standing 2.png"
+import left from "./standing-left.webp"
+import right from "./standing-right.webp"
 
 function Transition() {
     return (
-        <div className="transition-container">
+        <div className="transition-container" id="passions">
 
             <div className="transition-body">
 

@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0px 25px;
+    padding: 0px 16px;
 }
 
 .hero-container-content > h1 {
@@ -31,8 +31,9 @@
 
 .hero-container-media {
     grid-area: overlap;
-    min-height: 825px;
-    max-height: 825px;
+    min-height: 650px;
+    max-height: 650px;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -52,7 +53,7 @@
     display: block;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 800px) {
 
     .hero-container {
         background-color: #F8F8F8;
@@ -72,7 +73,7 @@
         grid-area: heroleft;
         text-align: left;
         align-items: unset;
-        padding: 0px 30px;
+        padding: 0px 16px;
     }
 
     .hero-container-media {

@@ -8,7 +8,7 @@ import kdFooterLogo from "./kevin-duque-logo-full.svg"
 
 function Footer() {
     return (
-        <div className="footer-main-container">
+        <div className="footer-main-container" id="contact">
 
             <div className="footer-main-body">
 
@@ -47,15 +47,15 @@ function Footer() {
 
                     <div className="footer-bottom-links">
 
-                        <a class="footer-link" href="/">
+                        <a class="footer-link" href="#about">
                             <div>About</div>
                         </a>
 
-                        <a class="footer-link flt-padding-left" href="/">
+                        <a class="footer-link flt-padding-left" href="#experience">
                             <div>Experience</div>     
                         </a>
 
-                        <a class="footer-link flt-padding-left" href="/">       
+                        <a class="footer-link flt-padding-left" href="#passions">       
                             <div>Passions</div>       
                         </a>
 

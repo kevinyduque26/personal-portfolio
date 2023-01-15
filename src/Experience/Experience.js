@@ -17,7 +17,7 @@ import { Navigation, Pagination, Keyboard } from "swiper";
 function Experience() {
 
     return (
-        <div className="experience-container">
+        <div className="experience-container" id="experience">
             <div className="experience-body">
 
                 <div className="experience-title">

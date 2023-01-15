@@ -4,8 +4,8 @@ import React from "react";
 import "./Hero.css"
 
 // File Import
-import desktopPicture from "./Header-16.9.png";
-import mobilePicture from "./Bio.png";
+import desktopPicture from "./desktop.webp";
+import mobilePicture from "./mobile.webp";
 
 function Hero({ screenWidthSize }) {
 
@@ -22,7 +22,7 @@ function Hero({ screenWidthSize }) {
                 </div>
 
                 <div className="hero-container-media">
-                    {screenWidthSize < 950 ? (
+                    {screenWidthSize < 800 ? (
                         <img 
                             src={mobilePicture} 
                             alt="Kevin Duque's personal brand logo" 

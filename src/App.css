@@ -53,7 +53,7 @@ h1 {
     font-weight: 400;
     font-size: clamp(50px, 5vw, 80px);
     color: #121212;
-    letter-spacing: -2px;
+    letter-spacing: -3px;
     line-height: clamp(55px, 5vw, 80px);;
 }
 
