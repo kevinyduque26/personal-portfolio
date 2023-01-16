@@ -7,9 +7,9 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0px auto;
-    padding: 80px 16px;
+    padding: 80px 30px;
     align-items: center;
 }
 
@@ -38,10 +38,26 @@
     width: 100%;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 767px) {
 
     .transition-body {
-        padding: 120px 16px;
+        padding: 100px 60px;
+    }
+
+    .transition-content h5 {
+        margin-top: 60px;
+    }
+
+    .transition-content p {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .transition-body {
+        padding: 120px;
     }
 
     .transition-content h5 {

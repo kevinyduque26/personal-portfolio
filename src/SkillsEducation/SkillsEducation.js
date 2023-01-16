@@ -1,6 +1,9 @@
-                                                                        import React from "react";
+import React from "react";
 
+// CSS Import
 import "./SkillsEducation.css"
+
+// Component Import
 import LanguageTicker from "../LanguageTicker/LanguageTicker";
 
 function SkillsEducation() {
@@ -12,7 +15,7 @@ function SkillsEducation() {
                 <div className="skills-education-left">
                     <h2>Technical Skills</h2>
                     <h5>Having product skills is not enough, upskilling is a key differentiator</h5>
-                    <p>On the job and through <a href="https://www.thinkful.com/" className="text-link" target="_blank" rel="noopener noreferrer">Thinkful</a>, I've gained practical experience in system design, coding frontend and backend languages, and algorithms. Next, I'll be strenghtning my infrastructure skills through AWS certifications.</p>
+                    <p>On the job and through <a href="https://www.thinkful.com/" className="text-link" target="_blank" rel="noopener noreferrer">Thinkful</a>, I've gained practical experience in system design, coding frontend and backend languages, and algorithms. Next, I'll be strengthening my infrastructure skills through AWS certifications.</p>
                     <div className="language-ticker">
                         <LanguageTicker />
                     </div>
@@ -33,22 +36,22 @@ function SkillsEducation() {
                             </div>
                         </div>
 
-                        <div className="education-item ei-margin-top">
+                        <div className="education-item edu-margin-top">
                             <div className="education-item-year">
                                 <h5>2016</h5>
                             </div>
                             <div className="education-item-school">
-                                <h5>Masters in Business Adminstration</h5>
+                                <h5>Master of Business Administration</h5>
                                 <p>Van Loan School at Endicott College</p>
                             </div>
                         </div>
 
-                        <div className="education-item ei-margin-top">
+                        <div className="education-item edu-margin-top">
                             <div className="education-item-year">
                                 <h5>2015</h5>
                             </div>
                             <div className="education-item-school">
-                                <h5>Bachelors in Business Adminstration, Finance</h5>
+                                <h5>Bachelor of Business Administration, Finance</h5>
                                 <p>Endicott College</p>
                             </div>
                         </div>

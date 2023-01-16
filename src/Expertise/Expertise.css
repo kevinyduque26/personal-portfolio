@@ -1,15 +1,19 @@
 .expertise-container {
     display: inline-block;
     background-color: #F8F8F8;
-    /* background-color: red; */
 }
 
 .expertise-body {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    padding: 80px 16px 0px 16px;
+    padding: 80px 30px 0px 30px;
+}
+
+.expertise-top-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .expertise-body h5 {
@@ -21,10 +25,6 @@
 }
 
 .expertise-title {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex: 1;
     text-align: center;
 }
 
@@ -44,8 +44,8 @@
 
 .expertise-logo-special {
     height: 25px;
-    min-width: 25%;
     flex: .25;
+    min-width: 25%;
 }
 
 .el-margin-top {
@@ -55,8 +55,6 @@
 .expertise-cards {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    flex: 1;
 }
 
 .expertise-card-icon {
@@ -65,137 +63,74 @@
     font-size: 25px;
 }
 
-.ec-mobile-margin-top {
+.ec-column-margin-top {
     margin-top: 40px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 767px) {
 
     .expertise-body {
-        flex-direction: row;
-    }
-
-    .expertise-title {
-        width: 30%;
-        flex: .3;
-        text-align: left;
-        padding-right: 25px;
+        flex-direction: column;
+        padding: 100px 60px 0px 60px;
     }
 
     .expertise-logos {
-        flex-direction: column;
+        margin: 60px 0px;
     }
 
-    .expertise-logo {
-        max-height: 50px;
-        width: 100%;
-        flex: 1;
-        object-fit: contain;
+    .el-margin-top {
+        margin-top: 60px;
     }
 
-    .expertise-logo-special {
-        max-height: 25px;
-        width: 100%;
-        flex: 1;
-        object-fit: contain;
-    }
-
-    .el-margin-top-600 {
-        margin-top: 40px;
-    }
-    
-    .expertise-cards {
-        min-width: 70%;
-        flex: .7;
-    }
-
-    .expertise-card {
-        padding: 0px 25px;
+    .ec-column-margin-top {
+        margin-top: 60px;
     }
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
 
     .expertise-body {
-        padding: 120px 16px 0px 16px;
+        padding: 120px 120px 0px 120px;
+        flex-direction: column;
+    }
+
+    .expertise-top-content {
+        display: flex;
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .expertise-title {
+        width: 35%;
+        flex: .35;
+        text-align: left;
     }
 
     .expertise-logos {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .expertise-logo {
-        max-height: 50px;
-        min-width: 50%;
-        flex: .5;
-    }
-
-    .expertise-logo-special {
-        max-height: 25px;
-        min-width: 50%;
-        flex: .5;
-    }
-    
-    .el-margin-top {
-        margin-top: unset;
-    }
-
-    .el-margin-top-600 {
-        margin-top: unset;
-    }
-
-    .el-margin-top-800 {
-        margin-top: 40px;
+        width: 60%;
+        flex: .6;
+        margin: 0px 0px;
     }
 
     .expertise-cards {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 80px;
     }
     
     .expertise-card {
-        min-width: 50%;
-        flex: .5;
-        padding: 0px 30px;
+        min-width: 47.5%;
+        flex: .475;
     }
 
-    .ec-mobile-margin-top {
+    .ec-column-margin-top {
         margin-top: unset;
     }
 
     .ec-tablet-margin-top {
-        margin-top: 40px;
-    }
-
-}
-
-@media screen and (min-width: 1100px) {
-
-    .expertise-logo {
-        max-height: 50px;
-        min-width: 25%;
-        flex: .25;
-    }
-
-    .expertise-logo-special {
-        max-height: 25px;
-        min-width: 25%;
-        flex: .25;
-    }
-
-    .el-margin-top-800 {
-        margin-top: unset;
-    }
-
-    .el-margin-top {
-        margin-top: 40px;
-    }
-
-    .expertise-card {
-        padding: 0px 40px;
+        margin-top: 80px;
     }
 
 }

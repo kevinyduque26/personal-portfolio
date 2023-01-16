@@ -1,6 +1,9 @@
 import React from "react";
 
+// CSS Import
 import "./FeaturedContent.css"
+
+// Component Import
 import ContentGallery from "../ContentGallery/ContentGallery";
 
 function FeaturedContent() {

@@ -4,11 +4,11 @@
 }
 
 .highlights-body {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    padding: 80px 16px;
+    padding: 80px 30px;
 }
 
 .highlights-body h3 {
@@ -60,10 +60,10 @@
 
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 767px) {
 
     .highlights-body {
-        padding: 120px 16px;
+        padding: 100px 60px;
     }
 
     .highlights-card-top-bottom {
@@ -88,7 +88,7 @@
     .highlights-card-top-bottom > .card-content {
         min-width: 50%;
         flex: .5;
-        padding-left: 16px;
+        padding-left: 60px;
     }
 
     .highlights-card-middle > .card-image {
@@ -99,7 +99,7 @@
     .highlights-card-middle > .card-content {
         min-width: 50%;
         flex: .5;
-        padding-right: 16px;
+        padding-right: 60px;
     }
 
     .hc-margin-top {
@@ -108,26 +108,20 @@
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
+
+    .highlights-body {
+        padding: 120px;
+    }
 
     .highlights-card-top-bottom > .card-content {
-        padding: 0px 40px;
+        padding-left: 80px;
     }
 
     .highlights-card-middle > .card-content {
-        padding: 0px 40px;
+        padding-right: 80px;
     }
 
 }
 
-@media screen and (min-width: 1100px) {
 
-    .highlights-card-top-bottom > .card-content {
-        padding: 0px 80px;
-    }
-
-    .highlights-card-middle > .card-content {
-        padding: 0px 80px;
-    }
-
-}

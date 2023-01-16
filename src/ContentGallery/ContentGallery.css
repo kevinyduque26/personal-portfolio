@@ -50,7 +50,7 @@ audio::-webkit-media-controls-time-remaining-display {
     background-color: red;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 767px) {
 
     .content-gallery-column {
       flex: 50%;
@@ -59,7 +59,7 @@ audio::-webkit-media-controls-time-remaining-display {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
 
     .content-gallery-column {
       flex: .25;

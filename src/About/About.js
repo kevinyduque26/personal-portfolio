@@ -11,20 +11,20 @@ function About() {
 
                 <div className="about-content-item">
                     <div className="kpi">6+</div>   
-                    <p>Years of expereince</p>
+                    <p>Years of experience</p>
                 </div>
 
-                <div className="about-content-item aci-mobile-padding-top">
+                <div className="about-content-item ">
                     <div className="kpi">Senior PM</div>
                     <p>Current role @ Bynder</p>
                 </div>
 
-                <div className="about-content-item aci-mobile-padding-top aci-tablet-padding-top">
+                <div className="about-content-item aci-padding-bottom-767">
                     <div className="kpi">Houston</div>
                     <p>Current location</p>
                 </div>
                 
-                <div className="about-content-item aci-mobile-padding-top aci-tablet-padding-top">
+                <div className="about-content-item aci-padding-bottom-767 aci-padding-bottom-less-767">
                     <div className="kpi">100+</div>
                     <p>Product features shipped</p>
                 </div>

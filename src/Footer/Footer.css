@@ -6,9 +6,9 @@
 .footer-main-body {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0px auto;
-    padding: 0px 16px;
+    padding: 0px 30px;
 }
 
 .footer-main-body .eyebrow {
@@ -44,7 +44,7 @@
 .footer-bottom {
     display: flex;
     flex-direction: column;
-    padding: 30px 0px;
+    padding: 40px 0px;
     border-top: 1px solid;
     border-color: rgba(255,255,255, .2);
     align-items: center;
@@ -69,11 +69,42 @@
     margin-left: 5px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 767px) {
+
+    .footer-main-body {
+        padding: 0px 60px;
+    }
+
+    .footer-main-content {
+        padding: 100px 0px 60px 0px;
+        max-width: 540px;
+        margin: 0px auto;
+    }
+
+    .footer-main-content-links {
+        margin-bottom: 100px;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-bottom-links {
+        margin-top: unset;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .footer-main-body {
+        padding: 0px 120px;
+    }
 
     .footer-main-content {
         padding: 120px 0px 80px 0px;
-        max-width: 540px;
+        /* max-width: 540px; */
         margin: 0px auto;
     }
 

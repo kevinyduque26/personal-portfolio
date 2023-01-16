@@ -10,7 +10,10 @@
     grid-template-rows: 1fr;
     grid-template-areas: "overlap"
     ;
+    max-width: 1440px;
+    margin: 0px auto;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-container-content {
@@ -20,15 +23,15 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0px 16px;
+    padding: 0px 30px;
 }
 
 .hero-container-content > h1 {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .hero-container-content > p {
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 .hero-container-media {
@@ -53,10 +56,9 @@
     height: 100%;
     background-color: #F8F8F8;
     opacity: .9;
-
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 767px) {
 
     .hero-container {
         background-color: #F8F8F8;
@@ -69,10 +71,7 @@
         grid-template-rows: 1fr;
         grid-template-areas: "heroleft heroright"
         ;
-        max-width: 1200px;
-        margin: 0px auto;
-        align-items: center;
-        justify-content: center;
+        padding: 0px 60px;
     }
 
     .hero-container-content {
@@ -80,18 +79,21 @@
         text-align: left;
         align-items: flex-start;
         justify-content: center;
+        padding: unset;
+        padding-right: 20px;
     }
 
     .hero-container-media {
         grid-area: unset;
+        grid-area: heroright;
     }
 
     .hero-container-media img{
-        grid-area: heroright;
         object-fit: cover;
         object-position: center top;
         height: 70vh;
         max-height: unset;
+        width: 100%;
     }
 
     .hero-overlay {
@@ -100,15 +102,21 @@
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
 
     .hero-container {
-
         height: 80vh;
     }
 
-    .hero-container-media img{
+    .hero-container-body {
+        padding: 0px 120px;
+    }
 
+    .hero-container-content {
+        padding-right: unset;
+    }
+
+    .hero-container-media img{
         height: 80vh;
     }
 

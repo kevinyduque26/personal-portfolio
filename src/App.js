@@ -16,6 +16,7 @@ import MusicSpotlight from './MusicSpotlight/MusicSpotlight';
 import FeaturedContent from './FeaturedContent/FeaturedContent';
 import Footer from './Footer/Footer';
 
+
 function App() {
 
   const [screenWidthSize, setScreenWidthSize] = useState(window.innerWidth)

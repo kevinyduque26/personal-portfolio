@@ -1,10 +1,14 @@
 import React from "react";
 
+// CSS Import
 import "./Footer.css"
 
+// File Import
+import kdFooterLogo from "./kevin-duque-logo-full.svg"
+
+// Icon Import
 import { AiOutlineFilePdf, AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai"
 
-import kdFooterLogo from "./kevin-duque-logo-full.svg"
 
 function Footer() {
     return (
@@ -42,7 +46,7 @@ function Footer() {
                 <div className="footer-bottom">
                     
                     <a href="/">
-                        <img src={kdFooterLogo} className="kd-footer-logo"></img>
+                        <img src={kdFooterLogo} className="kd-footer-logo" alt="Kevin Duque logo symbol and wordmark"></img>
                     </a>
 
                     <div className="footer-bottom-links">

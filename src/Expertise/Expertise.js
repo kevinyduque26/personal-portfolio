@@ -3,8 +3,7 @@ import React from "react";
 // CSS Import
 import "./Expertise.css"
 
-import { AiOutlineSketch, AiOutlineAppstore, AiOutlineUsergroupAdd, AiOutlineNodeIndex } from "react-icons/ai"
-
+// File Import
 import bylogo from "./by-logo.svg"
 import bhlogo from "./bh-logo.svg"
 import gelogo from "./ge-logo.svg"
@@ -14,28 +13,38 @@ import eqlogo from "./eq-logo.svg"
 import salogo from "./sa-logo.svg"
 import yplogo from "./yp-logo.svg"
 
+// Icon Import
+import { AiOutlineSketch, AiOutlineAppstore, AiOutlineUsergroupAdd, AiOutlineNodeIndex } from "react-icons/ai"
+
 function Expertise() {
     return (
         <div className="expertise-container">
 
             <div className="expertise-body">
- 
-                <div className="expertise-title">
-                    <h4>Trusted by many to bring products to market and execute</h4>
-                    <div className="expertise-logos">                            
-                        
-                        <img src={fflogo} alt="FIFA logo" className="expertise-logo-special"></img>
-                        <img src={bhlogo} alt="Baker Hughes logo" className="expertise-logo el-margin-top-600"></img>
-                        <img src={bplogo} alt="British Petroleum logo" className="expertise-logo el-margin-top-600 el-margin-top-800"></img>
-                        <img src={bylogo} alt="Bynder logo" className="expertise-logo el-margin-top-600 el-margin-top-800"></img>
 
-                        <img src={eqlogo} alt="Equinor logo" className="expertise-logo el-margin-top el-margin-top-800"></img>
-                        <img src={yplogo} alt="YPF logo" className="expertise-logo-special el-margin-top el-margin-top-800"></img>
-                        <img src={gelogo} alt="General Electric logo" className="expertise-logo el-margin-top el-margin-top-800"></img>
-                        <img src={salogo} alt="Saudi Aramco logo" className="expertise-logo el-margin-top el-margin-top-800"></img>
+                <div className="expertise-top-content">
+
+                    <div className="expertise-title">
+                        <h4>Trusted by many to bring products to market and execute</h4>
+                    </div>
+                    
+                    <div className="expertise-logos">                            
+                            
+                        <img src={fflogo} alt="FIFA logo" className="expertise-logo-special"></img>
+                        <img src={bhlogo} alt="Baker Hughes logo" className="expertise-logo"></img>
+                        <img src={bplogo} alt="British Petroleum logo" className="expertise-logo"></img>
+                        <img src={bylogo} alt="Bynder logo" className="expertise-logo"></img>
+
+                        <img src={eqlogo} alt="Equinor logo" className="expertise-logo el-margin-top"></img>
+                        <img src={yplogo} alt="YPF logo" className="expertise-logo-special el-margin-top"></img>
+                        <img src={gelogo} alt="General Electric logo" className="expertise-logo el-margin-top"></img>
+                        <img src={salogo} alt="Saudi Aramco logo" className="expertise-logo el-margin-top"></img>
 
                     </div>
+
                 </div>
+ 
+
 
                 <div className="expertise-cards">
 
@@ -50,18 +59,18 @@ function Expertise() {
                         </p>
                     </div>
 
-                    <div className="expertise-card ec-mobile-margin-top">
+                    <div className="expertise-card ec-column-margin-top">
                         <div className="expertise-card-icon">
                             <AiOutlineAppstore />
                         </div>
                         <h5>Feature Roadmap</h5>
                         <p>
-                            I leverage my feature roadmap to align execution across multiple stakeholders including UX, engineering, customer success, sales, and support.
-                            I'll create different versions depending on the auidence, especially customers. 
+                            I leverage my feature roadmap to align execution across multiple stakeholders including UX, engineering, sales, and others.
+                            I'll create different versions depending on the audience, especially customers or users. 
                         </p>
                     </div>
 
-                    <div className="expertise-card ec-mobile-margin-top ec-tablet-margin-top">
+                    <div className="expertise-card ec-column-margin-top ec-tablet-margin-top">
                         <div className="expertise-card-icon">
                             <AiOutlineUsergroupAdd />
                         </div>
@@ -72,7 +81,7 @@ function Expertise() {
                         </p>
                     </div>
 
-                    <div className="expertise-card ec-mobile-margin-top ec-tablet-margin-top">
+                    <div className="expertise-card ec-column-margin-top ec-tablet-margin-top">
                         <div className="expertise-card-icon">
                             <AiOutlineNodeIndex />
                         </div>
@@ -85,18 +94,18 @@ function Expertise() {
                     </div>
 
 
-                    <div className="expertise-card ec-mobile-margin-top ec-tablet-margin-top">
+                    <div className="expertise-card ec-column-margin-top ec-tablet-margin-top">
                         <div className="expertise-card-icon">
                             <AiOutlineUsergroupAdd />
                         </div>
                         <h5>Stakeholder Management</h5>
                         <p>
                             I take the time to learn and understand which communication methods are effective within the organization and who should be in my stakeholder group.
-                            I'm transperant and communicate often even with tough news.
+                            I'm transparent and communicate often even with tough news.
                         </p>
                     </div>
 
-                    <div className="expertise-card ec-mobile-margin-top ec-tablet-margin-top">
+                    <div className="expertise-card ec-column-margin-top ec-tablet-margin-top">
                         <div className="expertise-card-icon">
                             <AiOutlineNodeIndex />
                         </div>

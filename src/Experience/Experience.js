@@ -2,15 +2,15 @@ import React from "react";
 
 import "./Experience.css"
 
-// Import Swiper React components
+// Import Swiper React Components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+// Import Swiper Styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// import required modules
+// Import Swiper Modules
 import { Navigation, Pagination, Keyboard } from "swiper";
 
 
@@ -36,7 +36,6 @@ function Experience() {
                     <div className="experience-swiper"> 
                         <Swiper
                             slidesPerView={1}
-                            spaceBetween={0}
                             navigation={true}
                             loop={true}
                             pagination={{
@@ -45,11 +44,6 @@ function Experience() {
                             keyboard={true}
                             modules={[Navigation, Pagination, Keyboard]}
                             className="mySwiper"
-                            breakpoints={{
-                                1000: {
-                                    slidesPerView: 2,
-                                }
-                            }}
                         >
 
                             <SwiperSlide>
@@ -86,14 +80,14 @@ function Experience() {
                     </div>
                 </div>
 
-                <div className="experience-item ei-padding-top">
+                <div className="experience-item ei-margin-top">
                     <div className="experience-content">
                         <div className="eyebrow">MACHINE LEARNING & AI</div>
                         <h4>Senior Staff Technical Program Manager</h4>
                         <div className="company" style={{ fontWeight: "400"}}>Baker Hughes</div>
                         <div className="location-date">Houston, TX | Apr 2021 - Oct 2021</div>
-                        <p>Accountable for three early-stage machine learning products including vision, roadmap, cross-functional collaboration, development, and releases for &nbsp;
-                            <a href="https://www.bakerhughes.com/oilfield-services-and-equipment-digital/well-planning/drilling-hazard-prevention" className="text-link" target="_blank" rel="noopener noreferrer">Drilling Hazard Prevention</a>, &nbsp;
+                        <p>Accountable for three early-stage machine learning products including vision, roadmap, cross-functional collaboration, development, and releases for&nbsp; 
+                            <a href="https://www.bakerhughes.com/oilfield-services-and-equipment-digital/well-planning/drilling-hazard-prevention" className="text-link" target="_blank" rel="noopener noreferrer">Drilling Hazard Prevention</a>,&nbsp;
                             <a href="https://www.bakerhughes.com/production/artificial-lift/artificial-lift-digital-solutions/remote-monitoring-and-surveillance-services/advanced-esp-predictive-failure-analytics" className="text-link" target="_blank" rel="noopener noreferrer">Predictive Failure Analysis</a>,
                             and Rate of Penetration.</p>
                         <p>In addition, managed two analytics proof of concept engagements with Saudi Aramco (Saudi Arabia) and YPF (Argentina).</p>
@@ -101,7 +95,6 @@ function Experience() {
                     <div className="experience-swiper"> 
                         <Swiper
                             slidesPerView={1}
-                            spaceBetween={0}
                             navigation={true}
                             loop={true}
                             pagination={{
@@ -110,11 +103,6 @@ function Experience() {
                             keyboard={true}
                             modules={[Navigation, Pagination, Keyboard]}
                             className="mySwiper"
-                            breakpoints={{
-                                1000: {
-                                    slidesPerView: 2,
-                                }
-                            }}
                         >
 
                             <SwiperSlide>
@@ -156,7 +144,7 @@ function Experience() {
                     </div>
                 </div>
 
-                <div className="experience-item ei-padding-top">
+                <div className="experience-item ei-margin-top">
                     <div className="experience-content">
                         <div className="eyebrow">MARKETING TECH</div>
                         <h4>Senior Product Manager/ Product Manager</h4>
@@ -173,7 +161,6 @@ function Experience() {
                     <div className="experience-swiper"> 
                         <Swiper
                             slidesPerView={1}
-                            spaceBetween={0}
                             navigation={true}
                             loop={true}
                             pagination={{
@@ -182,11 +169,6 @@ function Experience() {
                             keyboard={true}
                             modules={[Navigation, Pagination, Keyboard]}
                             className="mySwiper"
-                            breakpoints={{
-                                1000: {
-                                    slidesPerView: 2,
-                                }
-                            }}
                         >
 
                             <SwiperSlide>
@@ -226,7 +208,7 @@ function Experience() {
 
                             <SwiperSlide>
                                 <div className="eyebrow">BAKERHUGHES.COM</div>
-                                <h5>Implemented translations via Lingotek multi-language and retrofitted component design for Japenese and Russian</h5>
+                                <h5>Implemented translations via Lingotek multi-language and retrofitted component design for Japanese and Russian</h5>
                             </SwiperSlide>
 
                             <SwiperSlide>
@@ -264,18 +246,17 @@ function Experience() {
                 </div>
 
                 <div className="experience-item-bottom">
-                    <div className="experience-content-bottom ei-padding-top">
+                    <div className="experience-content-bottom ei-margin-top">
                         <div className="eyebrow">INDUSTRIAL</div>
                         <h4>Commercial Leadership Program</h4>
                         <div className="company">General Electric</div>
                         <div className="location-date">Houston, TX & London, UK | Mar 2017 - Apr 2019</div>
-                        <p>The <a href="https://jobs.gecareers.com/global/en/leadership-clp-page" className="text-link" target="_blank" rel="noopener noreferrer">Commercial Leadership Program</a> 
+                        <p>The <a href="https://jobs.gecareers.com/global/en/leadership-clp-page" className="text-link" target="_blank" rel="noopener noreferrer">Commercial Leadership Program</a>&nbsp; 
                         (CLP) is a 24-month intensive training program designed to produce future leaders in GE and its respective portfolio companies. 
                         Assigned to GE Oil & Gas (now known as Baker Hughes).</p>
                         <p>Awards: (2x) Deliver results in an uncertain world – awarded and presented in-person during GE’s global training summit in Shanghai, China.</p>
                     </div>
-                    <div className="experience-filler"></div>
-                    <div className="experience-content-bottom ei-padding-top">
+                    <div className="experience-content-bottom ei-margin-top">
                         <div className="eyebrow">VENTURE CAPITAL</div>
                         <h4>Analyst</h4>
                         <div className="company">Brook Venture Partners</div>

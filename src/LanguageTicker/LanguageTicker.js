@@ -1,6 +1,9 @@
 import React from "react";
 
+// CSS Import
 import "./LanguageTicker.css"
+
+// Ticker Import
 import Ticker from 'react-ticker'
 
 function LanguageTicker() {

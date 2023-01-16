@@ -6,9 +6,9 @@
 .featured-content {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0px auto;
-    padding: 80px 16px 0px 16px;
+    padding: 80px 30px 0px 30px;
     /* background-color: red; */
 }
 
@@ -23,10 +23,22 @@
     margin-bottom: 40px;
 }
   
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 767px) {
 
     .featured-content {
-        padding: 120px 16px 0px 16px;
+        padding: 100px 60px 0px 60px;
+    }
+
+    .featured-content p {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .featured-content {
+        padding: 120px 120px 0px 120px;
     }
 
     .featured-content p {
