@@ -51,7 +51,7 @@ function SkillsEducation() {
                                 <h5>2015</h5>
                             </div>
                             <div className="education-item-school">
-                                <h5>Bachelor of Business Administration, Finance</h5>
+                                <h5>Bachelor of Science in Business Administration, Finance</h5>
                                 <p>Curtis L. Gerrish School of Business at Endicott College</p>
                             </div>
                         </div>
