@@ -5,6 +5,7 @@ import "./Footer.css"
 
 // File Import
 import kdFooterLogo from "./kevin-duque-logo-full.svg"
+import resume from  "../Navigation/Kevin Duque - Resume 2023.pdf"
 
 // Icon Import
 import { AiOutlineFilePdf, AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai"
@@ -26,7 +27,7 @@ function Footer() {
 
                 <div className="footer-main-content-links">
 
-                    <a class="footer-link" target="_blank" href="/" rel="noopener noreferrer">
+                    <a class="footer-link" target="_blank" href={resume} rel="noopener noreferrer">
                         <AiOutlineFilePdf />       
                         <div className="footer-link-text">Resume</div>
                     </a>

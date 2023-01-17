@@ -109,6 +109,10 @@ p {
     text-decoration: none;
 }
 
+.nav-links:hover {
+    opacity: .6;
+}
+
 .eyebrow {
     font-family: "Lato";
     font-weight: 400;
@@ -200,7 +204,7 @@ p {
 }
 
 .footer-link:hover {
-    opacity: .8;
+    opacity: .6;
 }
 
 
