@@ -42,7 +42,7 @@ function SkillsEducation() {
                             </div>
                             <div className="education-item-school">
                                 <h5>Master of Business Administration</h5>
-                                <p>Van Loan School at Endicott College</p>
+                                <p>Van Loan Graduate School at Endicott College</p>
                             </div>
                         </div>
 
@@ -52,7 +52,7 @@ function SkillsEducation() {
                             </div>
                             <div className="education-item-school">
                                 <h5>Bachelor of Business Administration, Finance</h5>
-                                <p>Endicott College</p>
+                                <p>Curtis L. Gerrish School of Business at Endicott College</p>
                             </div>
                         </div>
 
