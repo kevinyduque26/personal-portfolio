@@ -150,7 +150,8 @@ function Experience() {
                         <h4>Senior Product Manager/ Product Manager</h4>
                         <div className="company">Baker Hughes</div>
                         <div className="location-date">Houston, TX | Apr 2019 - Apr 2021</div>
-                        <p>Accountable for vision, roadmap, cross-functional collaboration, development, and releases for BakerHughes.com.</p>
+                        <p>Accountable for vision, roadmap, cross-functional collaboration, development, and releases for&nbsp; 
+                            <a href="https://www.bakerhughes.com/" className="text-link" target="_blank" rel="noopener noreferrer">BakerHughes.com</a>.</p>
                         <p>In addition, managed the enterprise implementation and operations for a portfolio of marketing tech including: &nbsp;
                             <a href="https://www.bynder.com/en/" className="text-link" target="_blank" rel="noopener noreferrer">Bynder</a>, &nbsp; 
                             <a href="https://www.bizzabo.com/" className="text-link" target="_blank" rel="noopener noreferrer">Bizzabo</a>, &nbsp;

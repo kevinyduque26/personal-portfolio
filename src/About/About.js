@@ -25,7 +25,7 @@ function About() {
                 </div>
                 
                 <div className="about-content-item aci-padding-bottom-767 aci-padding-bottom-less-767">
-                    <div className="kpi">100+</div>
+                    <div className="kpi">50+</div>
                     <p>Product features shipped</p>
                 </div>
 
