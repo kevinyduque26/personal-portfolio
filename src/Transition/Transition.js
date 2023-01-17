@@ -16,7 +16,7 @@ function Transition() {
                 <div className="transition-content">
                     <h2>Passions</h2>
                     <h5>From the office to the studio</h5>
-                    <p>Pursuing passions in my personal life has given me the opportunity to expand my skills, mind, and knowledge</p>
+                    <p>Pursuing hobbies in my personal life has given me the opportunity to expand my skills, mind, and knowledge</p>
                 </div>
 
                 <div className="transition-kevin-images">
