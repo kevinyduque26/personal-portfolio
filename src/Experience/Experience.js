@@ -45,16 +45,6 @@ function Experience() {
                             modules={[Navigation, Pagination, Keyboard]}
                             className="mySwiper"
                         >
-
-                            <SwiperSlide>
-                                <div className="eyebrow">MIGRATION & ONBOARDING</div>
-                                <h5>Developed and pitched two directions for migration tooling that can accelerate customer migrations from Webdam (owned by Bynder) and other systems </h5>
-                            </SwiperSlide>
-                            
-                            <SwiperSlide>
-                                <div className="eyebrow">MIGRATION & ONBOARDING</div>
-                                <h5>Implemented an asset service that makes the file transfer process an estimated 2-5x faster and less prone to error</h5>
-                            </SwiperSlide>
                                 
                             <SwiperSlide>
                                 <div className="eyebrow">CAPTURE</div>
@@ -64,6 +54,16 @@ function Experience() {
                             <SwiperSlide>
                                 <div className="eyebrow">CAPTURE</div>
                                 <h5>Implemented improvement to Bynder's upload API specific for FIFA to increase image upload speed by 20% for FIFA World Cup Qatar 2022</h5>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <div className="eyebrow">MIGRATION & ONBOARDING</div>
+                                <h5>Developed and pitched two directions for migration tooling that can accelerate customer migrations from Webdam (owned by Bynder) and other systems </h5>
+                            </SwiperSlide>
+                            
+                            <SwiperSlide>
+                                <div className="eyebrow">MIGRATION & ONBOARDING</div>
+                                <h5>Implemented an asset service that makes the file transfer process an estimated 2-5x faster and less prone to error</h5>
                             </SwiperSlide>
 
                             <SwiperSlide>

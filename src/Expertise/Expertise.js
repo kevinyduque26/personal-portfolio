@@ -87,10 +87,9 @@ function Expertise() {
                         </div>
                         <h5>Data Analysis</h5>
                         <p>
-                            I make usage tracking part of the definition of done where possible and focus on impactful metrics that are tied directly to my OKRs.
+                            I make usage tracking part of the definition of done where possible and focus on impactful metrics that contribute to the company's objectives.
                             I avoid analysis paralysis and use proxies when needed, especially in greenfield proposals. 
                         </p>
-
                     </div>
 
 
