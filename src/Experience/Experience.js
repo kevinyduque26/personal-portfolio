@@ -30,7 +30,7 @@ function Experience() {
                         <h4>Senior Product Manager</h4>
                         <div className="company" style={{ fontWeight: "400"}}>Bynder</div>
                         <div className="location-date">Houston, TX | Oct 2021 - Present</div>    
-                        <p>Currently accountable for two major product teams including vison, roadmap, cross-functional collaboration, development, and production releases for Capture (Upload, Download, Converters, Metadata Extraction, and more) and Migration & Onboarding tooling.</p>
+                        <p>Currently accountable for two major product teams including vision, roadmap, cross-functional collaboration, development, and production releases for Capture (Upload, Download, Converters, Metadata Extraction, and more) and Migration & Onboarding tooling.</p>
                         <p>Previously supported Platform Storage through first MVP production release.</p>
                     </div>
                     <div className="experience-swiper"> 
@@ -83,7 +83,7 @@ function Experience() {
                 <div className="experience-item ei-margin-top">
                     <div className="experience-content">
                         <div className="eyebrow">MACHINE LEARNING & AI</div>
-                        <h4>Senior Staff Technical Program Manager</h4>
+                        <h4>Senior Staff Technical Program Manager, Advanced Analytics</h4>
                         <div className="company" style={{ fontWeight: "400"}}>Baker Hughes</div>
                         <div className="location-date">Houston, TX | Apr 2021 - Oct 2021</div>
                         <p>Accountable for three early-stage machine learning products including vision, roadmap, cross-functional collaboration, development, and releases for&nbsp; 
