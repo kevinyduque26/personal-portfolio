@@ -20,7 +20,7 @@ function MusicSpotlight({ screenWidthSize }) {
                     
                     <div className="music-spotlight-top-content">
                         <h4>My journey with music</h4>
-                        <p>Music has been my main creative outlet all my life. There are many lessons from producing music that I apply to product (e.g., experimentation).</p> 
+                        <p>Music has always been my main creative outlet. There are many lessons from producing music that I apply to product, like experimentation</p> 
                     </div>
 
                     <div className="music-spotlight-top-vid">
@@ -37,7 +37,7 @@ function MusicSpotlight({ screenWidthSize }) {
 
                     <div className="music-spotlight-bottom-content">
                         <h5>Where it started</h5>
-                        <p>I was fascinated by the rise of DJ's back in 2011 and started to learn in my dorm room.</p>  
+                        <p>I was fascinated by the rise of DJ's back in 2011 and started to learn from my dorm room.</p>  
                     </div>
                     <div className="music-filler"></div>
                     <div className="music-spotlight-bottom-content msbc-margin-top">

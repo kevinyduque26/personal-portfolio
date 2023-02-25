@@ -48,7 +48,7 @@ function Highlights() {
                     <div className="card-content">
                         <div className="eyebrow">PRODUCT LAUNCH</div>
                         <h3>Implemented a new Drupal CMS for the launch of the Baker Hughes rebrand during GE divestiture</h3>
-                        <p>Built a new Drupal CMS from the ground up for the new Baker Hughes corporate website that serves customers, suppliers, and marketers for lead generation</p>
+                        <p>Built a Drupal CMS from the ground up for the new Baker Hughes corporate website that serves customers, suppliers, and marketers for lead generation</p>
                     </div>
                 </div>
 

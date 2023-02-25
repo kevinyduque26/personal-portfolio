@@ -30,7 +30,7 @@ function Experience() {
                         <h4>Senior Product Manager</h4>
                         <div className="company" style={{ fontWeight: "400"}}>Bynder</div>
                         <div className="location-date">Houston, TX | Oct 2021 - Present</div>    
-                        <p>Currently accountable for two major product teams including vision, roadmap, cross-functional collaboration, development, and production releases for Capture (Upload, Download, Converters, Metadata Extraction, and more) and Migration & Onboarding tooling.</p>
+                        <p>Currently lead two major product teams including vision, roadmap, cross-functional collaboration, development, and production releases for Capture (Upload, Download, Converters, Metadata Extraction, and more) and Migration & Onboarding tooling.</p>
                         <p>Previously supported Platform Storage through first MVP production release.</p>
                     </div>
                     <div className="experience-swiper"> 
@@ -86,7 +86,7 @@ function Experience() {
                         <h4>Senior Staff Technical Program Manager, Advanced Analytics</h4>
                         <div className="company" style={{ fontWeight: "400"}}>Baker Hughes</div>
                         <div className="location-date">Houston, TX | Apr 2021 - Oct 2021</div>
-                        <p>Accountable for three early-stage machine learning products including vision, roadmap, cross-functional collaboration, development, and releases for&nbsp; 
+                        <p>Led three early-stage machine learning products including vision, roadmap, cross-functional collaboration, development, and releases for&nbsp; 
                             <a href="https://www.bakerhughes.com/oilfield-services-and-equipment-digital/well-planning/drilling-hazard-prevention" className="text-link" target="_blank" rel="noopener noreferrer">Drilling Hazard Prevention</a>,&nbsp;
                             <a href="https://www.bakerhughes.com/production/artificial-lift/artificial-lift-digital-solutions/remote-monitoring-and-surveillance-services/advanced-esp-predictive-failure-analytics" className="text-link" target="_blank" rel="noopener noreferrer">Predictive Failure Analysis</a>,
                             and Rate of Penetration.</p>
@@ -150,7 +150,7 @@ function Experience() {
                         <h4>Senior Product Manager/ Product Manager</h4>
                         <div className="company">Baker Hughes</div>
                         <div className="location-date">Houston, TX | Apr 2019 - Apr 2021</div>
-                        <p>Accountable for vision, roadmap, cross-functional collaboration, development, and releases for&nbsp; 
+                        <p>Led vision, roadmap, cross-functional collaboration, development, and releases for&nbsp; 
                             <a href="https://www.bakerhughes.com/" className="text-link" target="_blank" rel="noopener noreferrer">BakerHughes.com</a>.</p>
                         <p>In addition, managed the enterprise implementation and operations for a portfolio of marketing tech including: &nbsp;
                             <a href="https://www.bynder.com/en/" className="text-link" target="_blank" rel="noopener noreferrer">Bynder</a>, &nbsp; 
@@ -179,7 +179,7 @@ function Experience() {
 
                             <SwiperSlide>
                                 <div className="eyebrow">BAKERHUGHES.COM</div>
-                                <h5>Delivered MVP implementation of BakerHughes.com in a 4-month timeframe to launch the new Baker Hughes brand followed by 12+ production releases thereafter</h5>
+                                <h5>Delivered MVP implementation of BakerHughes.com in a 4-month timeframe to launch the new Baker Hughes brand followed by 12+ production releases</h5>
                             </SwiperSlide>
                                 
                             <SwiperSlide>
@@ -219,7 +219,7 @@ function Experience() {
 
                             <SwiperSlide>
                                 <div className="eyebrow">BYNDER</div>
-                                <h5>Implemented Bynder across 4 business units and BakerHughes.com via Drupal integration for company-wide launch as new single-source for brand and marketing assets</h5>
+                                <h5>Implemented Bynder across 4 business units and BakerHughes.com via Drupal integration for company-wide launch as new single source for brand and marketing assets</h5>
                             </SwiperSlide>
 
                             <SwiperSlide>
@@ -234,7 +234,7 @@ function Experience() {
 
                             <SwiperSlide>
                                 <div className="eyebrow">BIZZABO</div>
-                                <h5>Implemented user friendly event site architecture and contact us form to generate 146 new commercially viable leads directly into Salesforce</h5>
+                                <h5>Implemented user friendly event site architecture and "Contact Us" form to generate 146 new commercially viable leads directly into Salesforce</h5>
                             </SwiperSlide>
 
                             <SwiperSlide>
@@ -253,7 +253,7 @@ function Experience() {
                         <div className="company">General Electric</div>
                         <div className="location-date">Houston, TX & London, UK | Mar 2017 - Apr 2019</div>
                         <p>The <a href="https://jobs.gecareers.com/global/en/leadership-clp-page" className="text-link" target="_blank" rel="noopener noreferrer">Commercial Leadership Program</a>&nbsp; 
-                        (CLP) is a 24-month intensive training program designed to produce future leaders in GE and its respective portfolio companies. 
+                        is a 24-month intensive training program designed to produce future leaders in GE and its respective portfolio companies. 
                         Assigned to GE Oil & Gas (now known as Baker Hughes).</p>
                         <p>Awards: (2x) Deliver results in an uncertain world – awarded and presented in-person during GE’s global training summit in Shanghai, China.</p>
                     </div>
@@ -262,7 +262,7 @@ function Experience() {
                         <h4>Analyst</h4>
                         <div className="company">Brook Venture Partners</div>
                         <div className="location-date">Wakefield, MA | Jun 2016 - Feb 2017</div>
-                        <p>Brook Venture Partners is a Boston-based venture capital firm that acquires growth stage companies. As an Analyst, I led due diligence for the 
+                        <p>Brook Venture Partners is a Boston-based venture capital firm that acquires growth-stage companies. As an Analyst, I led due diligence for the 
                             acquisition of <a href="https://www.brookventure.com/brook-venture-partners-acquires-cole-information-services/" className="text-link" target="_blank" rel="noopener noreferrer">Cole Information</a> and
                             assisted with the due diligence related to the bolt-on acquisition of &nbsp; 
                             <a href="https://www.brookventure.com/brook-portfolio-company-apogee-services-acquires-dsm-computing-solutions/" className="text-link" target="_blank" rel="noopener noreferrer">DSM Computing Solutions.</a>

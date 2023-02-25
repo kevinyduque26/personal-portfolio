@@ -25,7 +25,7 @@ function Expertise() {
                 <div className="expertise-top-content">
 
                     <div className="expertise-title">
-                        <h4>Trusted by many to bring products to market and execute</h4>
+                        <h4>Trusted by many to bring products to market through execution</h4>
                     </div>
                     
                     <div className="expertise-logos">                            
@@ -54,8 +54,8 @@ function Expertise() {
                         </div>
                         <h5>Vision & Strategy</h5>
                         <p>
-                            I excel with setting vision and strategy at the full product or product team level with a focus on simplicity.
-                            Ideally, its broken down into three parts (ex. crawl, walk, run) and easily shows the path forward and business value.
+                            I set vision and strategy at the full product or product team levels with a focus on simplicity nuance.
+                            Ideally, it's broken down into three parts (ex. crawl, walk, run) and easily shows the path forward and business value.
                         </p>
                     </div>
 
@@ -65,7 +65,7 @@ function Expertise() {
                         </div>
                         <h5>Feature Roadmap</h5>
                         <p>
-                            I leverage my feature roadmap to align execution across multiple stakeholders including UX, engineering, sales, and others.
+                            I leverage a tailored feature roadmap to align execution across multiple stakeholders including UX, engineering, sales, and support.
                             I'll create different versions depending on the audience, especially customers or users. 
                         </p>
                     </div>
@@ -76,8 +76,8 @@ function Expertise() {
                         </div>
                         <h5>User Experience</h5>
                         <p>
-                            I like to conduct hands on user research and speak directly with customers and users to understand their problem and needs. 
-                            This translates into new feature candidates with good user experience and design at the forefront.
+                            I conduct hands on user research and speak directly with customers and users to understand their difficulties and needs. 
+                            This translates into new feature candidates with user experience and design at the forefront.
                         </p>
                     </div>
 
@@ -87,7 +87,7 @@ function Expertise() {
                         </div>
                         <h5>Data Analysis</h5>
                         <p>
-                            I make usage tracking part of the definition of done where possible and focus on impactful metrics that contribute to the company's objectives.
+                            I make usage tracking part of the definition of "done" and focus on impactful metrics that contribute to the company's objectives.
                             I avoid analysis paralysis and use proxies when needed, especially in greenfield proposals. 
                         </p>
                     </div>
@@ -99,8 +99,8 @@ function Expertise() {
                         </div>
                         <h5>Stakeholder Management</h5>
                         <p>
-                            I take the time to learn and understand which communication methods are effective within the organization and who should be in my stakeholder group.
-                            I'm transparent and communicate often even with tough news.
+                            I take the time to learn and understand which communication methods are effective within the organization and determine stakeholder groups. 
+                            I'm transparent and communicate often, even with tough news.
                         </p>
                     </div>
 
@@ -110,8 +110,9 @@ function Expertise() {
                         </div>
                         <h5>Leadership</h5>
                         <p>
-                            I put people first and invest time in mentoring and coaching others. I take accountability for my decisions and own up to my mistakes.
-                            I believe in moving fast with less but stay disciplined with a good process and framework.
+                            I put people first and invest time in mentoring and coaching others. 
+                            I take accountability for my decisions and own up to my mistakes. 
+                            I believe in fast-moving efficiency while staying disciplined and utilizing a proven process and framework.
                         </p>
                     </div>
                     

@@ -15,7 +15,11 @@ function SkillsEducation() {
                 <div className="skills-education-left">
                     <h2>Technical Skills</h2>
                     <h5>Having product skills is not enough, upskilling is a key differentiator</h5>
-                    <p>On the job and through <a href="https://www.thinkful.com/" className="text-link" target="_blank" rel="noopener noreferrer">Thinkful</a>, I've gained practical experience in system design, coding frontend and backend languages, and algorithms. Next, I'll be strengthening my infrastructure skills through AWS certifications.</p>
+                    <p>
+                        On the job and through <a href="https://www.thinkful.com/" className="text-link" target="_blank" rel="noopener noreferrer">Thinkful</a>, 
+                        I've gained practical experience in system design, coding frontend and backend languages, and algorithms. 
+                        Next up is strengthening my infrastructure skills through AWS certifications.
+                    </p>
                     <div className="language-ticker">
                         <LanguageTicker />
                     </div>

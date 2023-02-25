@@ -16,12 +16,12 @@ function About() {
 
                 <div className="about-content-item ">
                     <div className="kpi">Senior PM</div>
-                    <p>Current role @ Bynder</p>
+                    <p>@ Bynder</p>
                 </div>
 
                 <div className="about-content-item aci-padding-bottom-767">
                     <div className="kpi">Houston</div>
-                    <p>Current location</p>
+                    <p>Based</p>
                 </div>
                 
                 <div className="about-content-item aci-padding-bottom-767 aci-padding-bottom-less-767">
