@@ -30,7 +30,7 @@ function Experience() {
                         <h4>Senior Product Manager</h4>
                         <div className="company" style={{ fontWeight: "400"}}>Bynder</div>
                         <div className="location-date">Houston, TX | Oct 2021 - Present</div>    
-                        <p>Currently lead two major product teams including vision, roadmap, cross-functional collaboration, development, and production releases for Capture (Upload, Download, Converters, Metadata Extraction, and more) and Migration & Onboarding tooling.</p>
+                        <p>Currently lead two major product teams covering the asset lifecycle domain including vision, roadmap, cross-functional collaboration, development, and production releases for Capture (Asset Upload, Download, Converters, Metadata Extraction, and more) and Migration & Onboarding tooling.</p>
                         <p>Previously supported Platform Storage through first MVP production release.</p>
                     </div>
                     <div className="experience-swiper"> 
