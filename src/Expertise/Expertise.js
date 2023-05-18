@@ -54,7 +54,7 @@ function Expertise() {
                         </div>
                         <h5>Vision & Strategy</h5>
                         <p>
-                            I set vision and strategy at the full product or product team levels with a focus on simplicity nuance.
+                            I set vision and strategy at the full product or product team levels with a focus on simplicity.
                             Ideally, it's broken down into three parts (ex. crawl, walk, run) and easily shows the path forward and business value.
                         </p>
                     </div>
