@@ -10,7 +10,7 @@ function About() {
             <div className="about-body">
 
                 <div className="about-content-item">
-                    <div className="kpi">6+</div>   
+                    <div className="kpi">7+</div>   
                     <p>Years of experience</p>
                 </div>
 
