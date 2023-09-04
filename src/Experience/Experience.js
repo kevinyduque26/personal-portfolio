@@ -184,7 +184,7 @@ function Experience() {
                                 
                             <SwiperSlide>
                                 <div className="eyebrow">BAKERHUGHES.COM</div>
-                                <h5>Implemented a robust website architecture and maximized component reusability to support 2,000+ webpages</h5>
+                                <h5>Implemented a robust website architecture and maximized component reusability to support 4,000+ webpages</h5>
                             </SwiperSlide>
 
                             <SwiperSlide>
